@@ -1,0 +1,14 @@
+.git
+.qa
+node_modules
+.svelte-kit
+build
+storybook-static
+test-results
+playwright-report
+.env
+.env.*
+!.env.example
+*.dump
+
+.local

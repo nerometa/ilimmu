@@ -1,0 +1,56 @@
+services:
+  db:
+    image: postgres:16.15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: companion
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+      POSTGRES_DB: companion
+    volumes:
+      - companion-data:/var/lib/postgresql/data
+    networks: [private]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U companion -d companion"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  migrate:
+    build:
+      context: .
+      args:
+        PUBLIC_ORIGIN: ${BETTER_AUTH_URL:?Set public application origin before building}
+    command: ["bun", "scripts/migrate.ts"]
+    restart: "no"
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?Set internal PostgreSQL DATABASE_URL}
+    networks: [private]
+    depends_on:
+      db:
+        condition: service_healthy
+
+  app:
+    build:
+      context: .
+      args:
+        PUBLIC_ORIGIN: ${BETTER_AUTH_URL:?Set public application origin before building}
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?Set internal PostgreSQL DATABASE_URL}
+      BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET:?Set a random secret}
+      BETTER_AUTH_URL: ${BETTER_AUTH_URL:?Set public application origin}
+      ORIGIN: ${BETTER_AUTH_URL:?Set public application origin}
+    ports:
+      - "127.0.0.1:4173:3000"
+    networks: [private, web]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+networks:
+  private:
+    internal: true
+  web:
+
+volumes:
+  companion-data:

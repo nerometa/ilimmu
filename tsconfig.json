@@ -1,0 +1,15 @@
+{
+  "extends": "$app/tsconfig",
+  "include": ["src", "scripts", "tests", "*.ts", ".storybook"],
+  "exclude": ["node_modules", "build", "storybook-static"],
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["$app/types", "bun"]
+  }
+}

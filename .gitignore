@@ -1,0 +1,25 @@
+node_modules/
+.svelte-kit/
+build/
+storybook-static/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+*.pem
+.qa/
+
+.local/
+
+REQUIREMENTS.md
+
+# Local credentials and database backups
+.aws/
+*.dump
+
+# Local logs and OS files
+*.log
+.DS_Store
+Thumbs.db
