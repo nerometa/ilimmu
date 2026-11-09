@@ -1,6 +1,7 @@
 # Development setup
 
-Ilimmu uses Bun 1.4.0 and PostgreSQL 16. Install dependencies with
+Ilimmu uses Bun 1.4.0 and PostgreSQL 16. Install Node 24 for the Vitest test
+runner; the application runtime remains Bun. Install dependencies with
 `bun install --frozen-lockfile --ignore-scripts`. Use synthetic data for tests.
 
 ## Local development
@@ -79,6 +80,21 @@ bun --bun playwright install --with-deps chromium
 bun run test:storybook
 bun run test:e2e
 ```
+
+The Vitest scripts run under Node because the Bun worker runner can hang before
+executing tests. CI installs both runtimes explicitly.
+
+With an existing Vite preview at `http://localhost:4173`, run:
+
+```sh
+bun run test:character-drafts
+```
+
+This browser regression uses synthetic components and intercepted API writes.
+It checks that edits retain their original revision after a background refresh,
+Reset loads the latest values, filtering preserves unsaved builds, and image
+fallbacks recover when their source changes. It uses the running preview rather
+than starting an E2E server. Set `QA_BASE_URL` to use another existing Vite URL.
 
 The CI workflow in `.github/workflows/ci.yml` runs frozen installation,
 checks, unit/integration tests, application/Storybook builds, Chromium

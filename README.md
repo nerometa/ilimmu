@@ -9,14 +9,23 @@ it was saved.
 
 You can:
 
-- Track character levels, ascension, constellations, and talents.
+- Mark characters owned in a fixed roster, then track levels, ascension, and talents.
+- Save one weapon and artifact build per character, including seven elemental
+  Traveler entries with independent progression and builds.
+- Choose a four-piece artifact set or two two-piece effects, plus valid main
+  stats for Sands, Goblet, and Circlet.
+- Filter by ownership, element, weapon type, and rarity. Search accepts names
+  and rarity terms such as `5 ★`, `4*`, or `5-star`.
 - Keep separate records for each weapon copy.
 - Update material and Mora quantities.
 - Set named build targets and priorities.
 - Review conflicting values before replacing a manual correction.
 - Download your records as JSON.
 
-Data entry is manual. Account syncing and file imports aren't available yet.
+Progression and ownership are entered manually. Reference catalogs are bundled
+from a versioned Genshin Impact Wiki snapshot. Filter icons come from the shared
+Penpot design components. See [catalog and artwork sources](src/lib/game/SOURCES.md).
+Account syncing and file imports aren't available yet.
 Ilimmu has one owner account and no public registration.
 
 Dev Note: This project is intended for one user for now (that's me tho).
@@ -37,6 +46,12 @@ The preview uses private files that aren't included in a fresh checkout.
 For a new installation, follow the [setup guide](docs/development.md).
 
 ## More information
+
+Development uses Bun 1.4.0, PostgreSQL 16, and Node 24 for Vitest. With the local
+preview already running, `bun run test:character-drafts` checks editing conflicts,
+draft retention during filtering, and image recovery using synthetic fixtures
+and intercepted writes. The [development guide](docs/development.md) covers the
+full verification suite and setup.
 
 Read the [design guide](DESIGN.md) for layout and visual rules.
 Installation operators can use the [deployment and recovery guide](docs/deployment.md).

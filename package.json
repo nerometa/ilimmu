@@ -11,8 +11,8 @@
     "build": "bun --bun vite build",
     "start": "bun ./build",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "test": "bun --bun vitest run --project unit",
-    "test:integration": "bun --bun vitest run --project integration",
+    "test": "node node_modules/vitest/vitest.mjs run --project unit",
+    "test:integration": "node node_modules/vitest/vitest.mjs run --project integration",
     "test:e2e": "bun --bun playwright test",
     "db:migrate": "bun scripts/migrate.ts",
     "owner": "bun scripts/owner.ts",
@@ -20,7 +20,8 @@
     "build-storybook": "bun node_modules/storybook/dist/bin/dispatcher.js build",
     "test:http": "bun scripts/verify-http.ts",
     "test:auth": "bun scripts/verify-auth.ts",
-    "test:storybook": "bun node_modules/vitest/vitest.mjs run --config .storybook/vitest.config.ts",
+    "test:storybook": "node node_modules/vitest/vitest.mjs run --config .storybook/vitest.config.ts",
+    "test:character-drafts": "node scripts/verify-character-drafts.mjs",
     "preview": "bun --env-file=.env.preview scripts/preview.ts"
   },
   "dependencies": {
