@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "authority": "Genshin Impact Wiki",
+  "retrievedAt": "2026-11-03T10:02:15.291984+00:00",
+  "sources": {
+    "artifact-sets": {
+      "title": "Artifact/Sets",
+      "pageId": 56860,
+      "revisionId": 2085534,
+      "url": "https://genshin-impact.fandom.com/wiki/Artifact/Sets",
+      "sha256": "b349ba0a03bd4521b76ee5a676abb573aa7dc694b3a635af5de72563b163214f"
+    },
+    "characters": {
+      "title": "Character",
+      "pageId": 161,
+      "revisionId": 2193086,
+      "url": "https://genshin-impact.fandom.com/wiki/Character",
+      "sha256": "e3085b6c1bd8bf6790c3e0ba181d7a63732d5417bb41840c3ac86f874f39889a"
+    },
+    "weapons": {
+      "title": "Weapon/List",
+      "pageId": 815,
+      "revisionId": 1708166,
+      "url": "https://genshin-impact.fandom.com/wiki/Weapon/List",
+      "sha256": "a788472ebb6cc0dab9af24b43d264b0dd8edc6e4f79a9ceced9528b5e589e4fc"
+    },
+    "sword": {
+      "title": "Sword",
+      "pageId": 710,
+      "revisionId": 1774684,
+      "url": "https://genshin-impact.fandom.com/wiki/Sword",
+      "sha256": "19d08c24d0f7158a9ff0299ad10b1d3ce7dd903ed50c0a5035034543fa7959de"
+    },
+    "claymore": {
+      "title": "Claymore",
+      "pageId": 703,
+      "revisionId": 2129296,
+      "url": "https://genshin-impact.fandom.com/wiki/Claymore",
+      "sha256": "2c20feed8476f126a2aa38fd52291eef225a47d76b15cd9fae0b110f0262f079"
+    },
+    "polearm": {
+      "title": "Polearm",
+      "pageId": 705,
+      "revisionId": 2195420,
+      "url": "https://genshin-impact.fandom.com/wiki/Polearm",
+      "sha256": "f8999bbb49925007b199c288cd2fd776f470f39248896dfc32f50daa397793b7"
+    },
+    "catalyst": {
+      "title": "Catalyst",
+      "pageId": 701,
+      "revisionId": 1861006,
+      "url": "https://genshin-impact.fandom.com/wiki/Catalyst",
+      "sha256": "d9a296ed2aafdb488a101e6e6dc506a3cb9acca6689e49e67a202a61587bd68f"
+    },
+    "bow": {
+      "title": "Bow",
+      "pageId": 696,
+      "revisionId": 1758926,
+      "url": "https://genshin-impact.fandom.com/wiki/Bow",
+      "sha256": "5ba2df6bf483924ac9e6d8624bb472111d92173c38453556e51b04858d962f15"
+    }
+  },
+  "entityRevisionCount": 436,
+  "slotIcons": [
+    {
+      "file": "slot-circlet.png",
+      "wikiPageId": 16927,
+      "source": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Icon_Circlet_of_Logos.png/revision/latest?cb=20210712005353",
+      "imageTimestamp": "2021-07-12T00:53:53Z"
+    },
+    {
+      "file": "slot-goblet.png",
+      "wikiPageId": 16926,
+      "source": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Icon_Goblet_of_Eonothem.png/revision/latest?cb=20210713185527",
+      "imageTimestamp": "2021-07-13T18:55:27Z"
+    },
+    {
+      "file": "slot-sands.png",
+      "wikiPageId": 16929,
+      "source": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Icon_Sands_of_Eon.png/revision/latest?cb=20210713185616",
+      "imageTimestamp": "2021-07-13T18:56:16Z"
+    }
+  ],
+  "travelerImage": {
+    "file": "traveler.webp",
+    "source": "https://ggartifact.com/character/traveler.webp",
+    "providedByUser": true
+  },
+  "counts": {
+    "artifacts": 63,
+    "weapons": 252,
+    "characters": 121
+  },
+  "unmappedArtifacts": [
+    "Initiate"
+  ],
+  "unmappedWeapons": [],
+  "unmappedCharacters": [
+    "Wonderland Manekin"
+  ],
+  "notes": [
+    "Game IDs are stable application joins, not Wiki page IDs.",
+    "Missing artwork never removes a catalog entry.",
+    "Wiki page HTML is cached to make the normalized data reviewable and reproducible."
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "490861": {
+        "pageid": 490861,
+        "ns": 0,
+        "title": "New Bough",
+        "revisions": [
+          {
+            "revid": 2190065,
+            "parentid": 2189507,
+            "timestamp": "2026-10-03T04:16:45Z"
+          }
+        ]
+      },
+      "395284": {
+        "pageid": 395284,
+        "ns": 0,
+        "title": "Nightweaver's Looking Glass",
+        "revisions": [
+          {
+            "revid": 2191370,
+            "parentid": 2127898,
+            "timestamp": "2026-10-04T00:31:34Z"
+          }
+        ]
+      },
+      "429504": {
+        "pageid": 429504,
+        "ns": 0,
+        "title": "Nocturne's Curtain Call",
+        "revisions": [
+          {
+            "revid": 2172141,
+            "parentid": 2163537,
+            "timestamp": "2026-09-10T20:53:33Z"
+          }
+        ]
+      },
+      "120551": {
+        "pageid": 120551,
+        "ns": 0,
+        "title": "Oathsworn Eye",
+        "revisions": [
+          {
+            "revid": 2195920,
+            "parentid": 2067271,
+            "timestamp": "2026-10-16T17:24:52Z"
+          }
+        ]
+      },
+      "733": {
+        "pageid": 733,
+        "ns": 0,
+        "title": "Old Merc's Pal",
+        "revisions": [
+          {
+            "revid": 1774822,
+            "parentid": 1676988,
+            "timestamp": "2025-07-04T00:18:49Z"
+          }
+        ]
+      },
+      "1543": {
+        "pageid": 1543,
+        "ns": 0,
+        "title": "Otherworldly Story",
+        "revisions": [
+          {
+            "revid": 2127592,
+            "parentid": 1806391,
+            "timestamp": "2026-07-10T16:53:25Z"
+          }
+        ]
+      },
+      "335053": {
+        "pageid": 335053,
+        "ns": 0,
+        "title": "Peak Patrol Song",
+        "revisions": [
+          {
+            "revid": 2172111,
+            "parentid": 2089060,
+            "timestamp": "2026-09-10T19:56:18Z"
+          }
+        ]
+      },
+      "678": {
+        "pageid": 678,
+        "ns": 0,
+        "title": "Pocket Grimoire",
+        "revisions": [
+          {
+            "revid": 1806113,
+            "parentid": 1676985,
+            "timestamp": "2025-08-26T14:50:25Z"
+          }
+        ]
+      },
+      "95708": {
+        "pageid": 95708,
+        "ns": 0,
+        "title": "Polar Star",
+        "revisions": [
+          {
+            "revid": 2182509,
+            "parentid": 2140318,
+            "timestamp": "2026-09-24T02:17:52Z"
+          }
+        ]
+      },
+      "254107": {
+        "pageid": 254107,
+        "ns": 0,
+        "title": "Portable Power Saw",
+        "revisions": [
+          {
+            "revid": 2064616,
+            "parentid": 1709563,
+            "timestamp": "2026-03-11T12:20:59Z"
+          }
+        ]
+      },
+      "67699": {
+        "pageid": 67699,
+        "ns": 0,
+        "title": "Predator",
+        "revisions": [
+          {
+            "revid": 2169431,
+            "parentid": 2140314,
+            "timestamp": "2026-09-07T02:25:35Z"
+          }
+        ]
+      },
+      "23787": {
+        "pageid": 23787,
+        "ns": 0,
+        "title": "Primordial Jade Cutter",
+        "revisions": [
+          {
+            "revid": 2172161,
+            "parentid": 1910871,
+            "timestamp": "2026-09-10T21:31:56Z"
+          }
+        ]
+      },
+      "774": {
+        "pageid": 774,
+        "ns": 0,
+        "title": "Primordial Jade Winged-Spear",
+        "revisions": [
+          {
+            "revid": 2130109,
+            "parentid": 1806189,
+            "timestamp": "2026-07-15T22:06:32Z"
+          }
+        ]
+      },
+      "254108": {
+        "pageid": 254108,
+        "ns": 0,
+        "title": "Prospector's Drill",
+        "revisions": [
+          {
+            "revid": 2064618,
+            "parentid": 1803719,
+            "timestamp": "2026-03-11T12:27:39Z"
+          }
+        ]
+      },
+      "395286": {
+        "pageid": 395286,
+        "ns": 0,
+        "title": "Prospector's Shovel",
+        "revisions": [
+          {
+            "revid": 2198891,
+            "parentid": 2169411,
+            "timestamp": "2026-10-24T14:07:40Z"
+          }
+        ]
+      },
+      "659": {
+        "pageid": 659,
+        "ns": 0,
+        "title": "Prototype Amber",
+        "revisions": [
+          {
+            "revid": 1806371,
+            "parentid": 1726875,
+            "timestamp": "2025-08-26T16:16:03Z"
+          }
+        ]
+      },
+      "746": {
+        "pageid": 746,
+        "ns": 0,
+        "title": "Prototype Archaic",
+        "revisions": [
+          {
+            "revid": 2064389,
+            "parentid": 1806368,
+            "timestamp": "2026-03-11T00:24:07Z"
+          }
+        ]
+      },
+      "775": {
+        "pageid": 775,
+        "ns": 0,
+        "title": "Prototype Crescent",
+        "revisions": [
+          {
+            "revid": 2064393,
+            "parentid": 1806366,
+            "timestamp": "2026-03-11T00:38:46Z"
+          }
+        ]
+      },
+      "793": {
+        "pageid": 793,
+        "ns": 0,
+        "title": "Prototype Rancour",
+        "revisions": [
+          {
+            "revid": 2090327,
+            "parentid": 1861008,
+            "timestamp": "2026-05-12T05:02:28Z"
+          }
+        ]
+      },
+      "770": {
+        "pageid": 770,
+        "ns": 0,
+        "title": "Prototype Starglitter",
+        "revisions": [
+          {
+            "revid": 1806369,
+            "parentid": 1677005,
+            "timestamp": "2025-08-26T16:15:24Z"
+          }
+        ]
+      },
+      "420146": {
+        "pageid": 420146,
+        "ns": 0,
+        "title": "Rainbow Serpent's Rain Bow",
+        "revisions": [
+          {
+            "revid": 2198956,
+            "parentid": 2163542,
+            "timestamp": "2026-10-24T17:26:52Z"
+          }
+        ]
+      },
+      "749": {
+        "pageid": 749,
+        "ns": 0,
+        "title": "Rainslasher",
+        "revisions": [
+          {
+            "revid": 2171857,
+            "parentid": 2112824,
+            "timestamp": "2026-09-10T01:54:42Z"
+          }
+        ]
+      },
+      "254109": {
+        "pageid": 254109,
+        "ns": 0,
+        "title": "Range Gauge",
+        "revisions": [
+          {
+            "revid": 2064625,
+            "parentid": 1692123,
+            "timestamp": "2026-03-11T12:38:02Z"
+          }
+        ]
+      },
+      "625": {
+        "pageid": 625,
+        "ns": 0,
+        "title": "Raven Bow",
+        "revisions": [
+          {
+            "revid": 1806345,
+            "parentid": 1741910,
+            "timestamp": "2025-08-26T15:57:53Z"
+          }
+        ]
+      },
+      "1353": {
+        "pageid": 1353,
+        "ns": 0,
+        "title": "Recurve Bow",
+        "revisions": [
+          {
+            "revid": 1806178,
+            "parentid": 1677090,
+            "timestamp": "2025-08-26T15:05:24Z"
+          }
+        ]
+      },
+      "103638": {
+        "pageid": 103638,
+        "ns": 0,
+        "title": "Redhorn Stonethresher",
+        "revisions": [
+          {
+            "revid": 2089053,
+            "parentid": 2088584,
+            "timestamp": "2026-05-09T20:37:50Z"
+          }
+        ]
+      },
+      "408382": {
+        "pageid": 408382,
+        "ns": 0,
+        "title": "Reliquary of Truth",
+        "revisions": [
+          {
+            "revid": 2197821,
+            "parentid": 2197820,
+            "timestamp": "2026-10-22T05:10:51Z"
+          }
+        ]
+      },
+      "241374": {
+        "pageid": 241374,
+        "ns": 0,
+        "title": "Rightful Reward",
+        "revisions": [
+          {
+            "revid": 2064355,
+            "parentid": 1806359,
+            "timestamp": "2026-03-10T22:00:57Z"
+          }
+        ]
+      },
+      "322501": {
+        "pageid": 322501,
+        "ns": 0,
+        "title": "Ring of Yaxche",
+        "revisions": [
+          {
+            "revid": 2050423,
+            "parentid": 2042155,
+            "timestamp": "2026-02-13T08:36:53Z"
+          }
+        ]
+      },
+      "617": {
+        "pageid": 617,
+        "ns": 0,
+        "title": "Royal Bow",
+        "revisions": [
+          {
+            "revid": 2140349,
+            "parentid": 2140348,
+            "timestamp": "2026-08-08T04:28:12Z"
+          }
+        ]
+      },
+      "751": {
+        "pageid": 751,
+        "ns": 0,
+        "title": "Royal Greatsword",
+        "revisions": [
+          {
+            "revid": 2140350,
+            "parentid": 1806324,
+            "timestamp": "2026-08-08T04:29:29Z"
+          }
+        ]
+      },
+      "661": {
+        "pageid": 661,
+        "ns": 0,
+        "title": "Royal Grimoire",
+        "revisions": [
+          {
+            "revid": 2140355,
+            "parentid": 2140354,
+            "timestamp": "2026-08-08T04:40:13Z"
+          }
+        ]
+      },
+      "795": {
+        "pageid": 795,
+        "ns": 0,
+        "title": "Royal Longsword",
+        "revisions": [
+          {
+            "revid": 2140353,
+            "parentid": 1806336,
+            "timestamp": "2026-08-08T04:38:55Z"
+          }
+        ]
+      },
+      "17857": {
+        "pageid": 17857,
+        "ns": 0,
+        "title": "Royal Spear",
+        "revisions": [
+          {
+            "revid": 2140351,
+            "parentid": 2067272,
+            "timestamp": "2026-08-08T04:34:18Z"
+          }
+        ]
+      },
+      "619": {
+        "pageid": 619,
+        "ns": 0,
+        "title": "Rust",
+        "revisions": [
+          {
+            "revid": 2092048,
+            "parentid": 1806365,
+            "timestamp": "2026-05-16T21:07:50Z"
+          }
+        ]
+      },
+      "408384": {
+        "pageid": 408384,
+        "ns": 0,
+        "title": "Sacrificer's Staff",
+        "revisions": [
+          {
+            "revid": 2198894,
+            "parentid": 2113736,
+            "timestamp": "2026-10-24T14:11:18Z"
+          }
+        ]
+      },
+      "640": {
+        "pageid": 640,
+        "ns": 0,
+        "title": "Sacrificial Bow",
+        "revisions": [
+          {
+            "revid": 1806342,
+            "parentid": 1716486,
+            "timestamp": "2025-08-26T15:54:08Z"
+          }
+        ]
+      },
+      "663": {
+        "pageid": 663,
+        "ns": 0,
+        "title": "Sacrificial Fragments",
+        "revisions": [
+          {
+            "revid": 1806343,
+            "parentid": 1692127,
+            "timestamp": "2025-08-26T15:55:10Z"
+          }
+        ]
+      },
+      "3969": {
+        "pageid": 3969,
+        "ns": 0,
+        "title": "Sacrificial Greatsword",
+        "revisions": [
+          {
+            "revid": 1806344,
+            "parentid": 1692128,
+            "timestamp": "2025-08-26T15:56:08Z"
+          }
+        ]
+      },
+      "241368": {
+        "pageid": 241368,
+        "ns": 0,
+        "title": "Sacrificial Jade",
+        "revisions": [
+          {
+            "revid": 2141571,
+            "parentid": 2044374,
+            "timestamp": "2026-08-10T08:11:51Z"
+          }
+        ]
+      },
+      "797": {
+        "pageid": 797,
+        "ns": 0,
+        "title": "Sacrificial Sword",
+        "revisions": [
+          {
+            "revid": 1692129,
+            "parentid": 1677019,
+            "timestamp": "2024-12-30T10:22:49Z"
+          }
+        ]
+      },
+      "154042": {
+        "pageid": 154042,
+        "ns": 0,
+        "title": "Sapwood Blade",
+        "revisions": [
+          {
+            "revid": 1879445,
+            "parentid": 1806429,
+            "timestamp": "2025-10-31T15:46:29Z"
+          }
+        ]
+      },
+      "241367": {
+        "pageid": 241367,
+        "ns": 0,
+        "title": "Scion of the Blazing Sun",
+        "revisions": [
+          {
+            "revid": 1806402,
+            "parentid": 1757087,
+            "timestamp": "2025-08-26T17:04:12Z"
+          }
+        ]
+      },
+      "631": {
+        "pageid": 631,
+        "ns": 0,
+        "title": "Seasoned Hunter's Bow",
+        "revisions": [
+          {
+            "revid": 1676970,
+            "parentid": 1660091,
+            "timestamp": "2024-12-12T07:14:26Z"
+          }
+        ]
+      },
+      "370995": {
+        "pageid": 370995,
+        "ns": 0,
+        "title": "Sequence of Solitude",
+        "revisions": [
+          {
+            "revid": 2163543,
+            "parentid": 2063994,
+            "timestamp": "2026-08-24T21:39:37Z"
+          }
+        ]
+      },
+      "395259": {
+        "pageid": 395259,
+        "ns": 0,
+        "title": "Serenity's Call",
+        "revisions": [
+          {
+            "revid": 2198888,
+            "parentid": 2163544,
+            "timestamp": "2026-10-24T14:04:00Z"
+          }
+        ]
+      },
+      "1441": {
+        "pageid": 1441,
+        "ns": 0,
+        "title": "Serpent Spine",
+        "revisions": [
+          {
+            "revid": 1806413,
+            "parentid": 1677106,
+            "timestamp": "2025-08-26T17:12:39Z"
+          }
+        ]
+      },
+      "627": {
+        "pageid": 627,
+        "ns": 0,
+        "title": "Sharpshooter's Oath",
+        "revisions": [
+          {
+            "revid": 1863777,
+            "parentid": 1806316,
+            "timestamp": "2025-10-15T23:22:14Z"
+          }
+        ]
+      },
+      "490856": {
+        "pageid": 490856,
+        "ns": 0,
+        "title": "Silver Light",
+        "revisions": [
+          {
+            "revid": 2194950,
+            "parentid": 2190062,
+            "timestamp": "2026-10-12T11:17:12Z"
+          }
+        ]
+      },
+      "779": {
+        "pageid": 779,
+        "ns": 0,
+        "title": "Silver Sword",
+        "revisions": [
+          {
+            "revid": 1863748,
+            "parentid": 1784769,
+            "timestamp": "2025-10-15T22:53:24Z"
+          }
+        ]
+      }
+    }
+  }
+}

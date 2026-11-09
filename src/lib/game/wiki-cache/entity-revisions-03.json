@@ -1,0 +1,607 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "383752": {
+        "pageid": 383752,
+        "ns": 0,
+        "title": "Fractured Halo",
+        "revisions": [
+          {
+            "revid": 2167148,
+            "parentid": 2163534,
+            "timestamp": "2026-08-31T20:50:47Z"
+          }
+        ]
+      },
+      "56669": {
+        "pageid": 56669,
+        "ns": 0,
+        "title": "Freedom-Sworn",
+        "revisions": [
+          {
+            "revid": 2172118,
+            "parentid": 1965780,
+            "timestamp": "2026-09-10T20:12:23Z"
+          }
+        ]
+      },
+      "19419": {
+        "pageid": 19419,
+        "ns": 0,
+        "title": "Frostbearer",
+        "revisions": [
+          {
+            "revid": 2052615,
+            "parentid": 1806118,
+            "timestamp": "2026-02-19T09:37:26Z"
+          }
+        ]
+      },
+      "477229": {
+        "pageid": 477229,
+        "ns": 0,
+        "title": "Frostbreath",
+        "revisions": [
+          {
+            "revid": 2172466,
+            "parentid": 2171216,
+            "timestamp": "2026-09-11T14:40:46Z"
+          }
+        ]
+      },
+      "154046": {
+        "pageid": 154046,
+        "ns": 0,
+        "title": "Fruit of Fulfillment",
+        "revisions": [
+          {
+            "revid": 2067361,
+            "parentid": 1728211,
+            "timestamp": "2026-03-20T16:25:37Z"
+          }
+        ]
+      },
+      "335056": {
+        "pageid": 335056,
+        "ns": 0,
+        "title": "Fruitful Hook",
+        "revisions": [
+          {
+            "revid": 2042150,
+            "parentid": 1863727,
+            "timestamp": "2026-01-25T22:40:08Z"
+          }
+        ]
+      },
+      "442548": {
+        "pageid": 442548,
+        "ns": 0,
+        "title": "Gest of the Mighty Wolf",
+        "revisions": [
+          {
+            "revid": 2114550,
+            "parentid": 2089072,
+            "timestamp": "2026-06-23T23:12:06Z"
+          }
+        ]
+      },
+      "450554": {
+        "pageid": 450554,
+        "ns": 0,
+        "title": "Golden Frostbound Oath",
+        "revisions": [
+          {
+            "revid": 2176756,
+            "parentid": 2167859,
+            "timestamp": "2026-09-17T22:18:02Z"
+          }
+        ]
+      },
+      "64144": {
+        "pageid": 64144,
+        "ns": 0,
+        "title": "Hakushin Ring",
+        "revisions": [
+          {
+            "revid": 1806278,
+            "parentid": 1682462,
+            "timestamp": "2025-08-26T15:29:22Z"
+          }
+        ]
+      },
+      "1545": {
+        "pageid": 1545,
+        "ns": 0,
+        "title": "Halberd",
+        "revisions": [
+          {
+            "revid": 2064346,
+            "parentid": 1806095,
+            "timestamp": "2026-03-10T21:27:29Z"
+          }
+        ]
+      },
+      "64140": {
+        "pageid": 64140,
+        "ns": 0,
+        "title": "Hamayumi",
+        "revisions": [
+          {
+            "revid": 2140336,
+            "parentid": 1806274,
+            "timestamp": "2026-08-08T03:58:23Z"
+          }
+        ]
+      },
+      "126424": {
+        "pageid": 126424,
+        "ns": 0,
+        "title": "Haran Geppaku Futsu",
+        "revisions": [
+          {
+            "revid": 2171690,
+            "parentid": 2089055,
+            "timestamp": "2026-09-09T23:17:49Z"
+          }
+        ]
+      },
+      "785": {
+        "pageid": 785,
+        "ns": 0,
+        "title": "Harbinger of Dawn",
+        "revisions": [
+          {
+            "revid": 2064339,
+            "parentid": 1863770,
+            "timestamp": "2026-03-10T21:09:19Z"
+          }
+        ]
+      },
+      "477225": {
+        "pageid": 477225,
+        "ns": 0,
+        "title": "Heretic's Molten Blade",
+        "revisions": [
+          {
+            "revid": 2171231,
+            "parentid": 2170561,
+            "timestamp": "2026-09-09T15:12:46Z"
+          }
+        ]
+      },
+      "633": {
+        "pageid": 633,
+        "ns": 0,
+        "title": "Hunter's Bow",
+        "revisions": [
+          {
+            "revid": 1745978,
+            "parentid": 1676912,
+            "timestamp": "2025-05-03T11:21:15Z"
+          }
+        ]
+      },
+      "154037": {
+        "pageid": 154037,
+        "ns": 0,
+        "title": "Hunter's Path",
+        "revisions": [
+          {
+            "revid": 2041747,
+            "parentid": 1966064,
+            "timestamp": "2026-01-25T02:44:23Z"
+          }
+        ]
+      },
+      "490860": {
+        "pageid": 490860,
+        "ns": 0,
+        "title": "Hymn of the Maelstrom",
+        "revisions": [
+          {
+            "revid": 2190064,
+            "parentid": 2190063,
+            "timestamp": "2026-10-03T04:13:42Z"
+          }
+        ]
+      },
+      "228417": {
+        "pageid": 228417,
+        "ns": 0,
+        "title": "Ibis Piercer",
+        "revisions": [
+          {
+            "revid": 2170058,
+            "parentid": 2170057,
+            "timestamp": "2026-09-08T20:14:31Z"
+          }
+        ]
+      },
+      "763": {
+        "pageid": 763,
+        "ns": 0,
+        "title": "Iron Point",
+        "revisions": [
+          {
+            "revid": 2064354,
+            "parentid": 1784764,
+            "timestamp": "2026-03-10T21:55:01Z"
+          }
+        ]
+      },
+      "789": {
+        "pageid": 789,
+        "ns": 0,
+        "title": "Iron Sting",
+        "revisions": [
+          {
+            "revid": 2065018,
+            "parentid": 2041814,
+            "timestamp": "2026-03-12T23:58:11Z"
+          }
+        ]
+      },
+      "477226": {
+        "pageid": 477226,
+        "ns": 0,
+        "title": "Jade Vista",
+        "revisions": [
+          {
+            "revid": 2171311,
+            "parentid": 2171079,
+            "timestamp": "2026-09-09T18:10:15Z"
+          }
+        ]
+      },
+      "219003": {
+        "pageid": 219003,
+        "ns": 0,
+        "title": "Jadefall's Splendor",
+        "revisions": [
+          {
+            "revid": 2162993,
+            "parentid": 2089050,
+            "timestamp": "2026-08-24T03:16:02Z"
+          }
+        ]
+      },
+      "144232": {
+        "pageid": 144232,
+        "ns": 0,
+        "title": "Kagotsurube Isshin",
+        "revisions": [
+          {
+            "revid": 1966042,
+            "parentid": 1803327,
+            "timestamp": "2026-01-11T22:03:43Z"
+          }
+        ]
+      },
+      "120542": {
+        "pageid": 120542,
+        "ns": 0,
+        "title": "Kagura's Verity",
+        "revisions": [
+          {
+            "revid": 2183417,
+            "parentid": 2127342,
+            "timestamp": "2026-09-24T17:44:14Z"
+          }
+        ]
+      },
+      "64143": {
+        "pageid": 64143,
+        "ns": 0,
+        "title": "Katsuragikiri Nagamasa",
+        "revisions": [
+          {
+            "revid": 2086567,
+            "parentid": 1926459,
+            "timestamp": "2026-04-30T16:47:31Z"
+          }
+        ]
+      },
+      "167225": {
+        "pageid": 167225,
+        "ns": 0,
+        "title": "Key of Khaj-Nisut",
+        "revisions": [
+          {
+            "revid": 2171821,
+            "parentid": 2067278,
+            "timestamp": "2026-09-10T00:59:53Z"
+          }
+        ]
+      },
+      "154041": {
+        "pageid": 154041,
+        "ns": 0,
+        "title": "King's Squire",
+        "revisions": [
+          {
+            "revid": 1806334,
+            "parentid": 1682860,
+            "timestamp": "2025-08-26T15:49:13Z"
+          }
+        ]
+      },
+      "64142": {
+        "pageid": 64142,
+        "ns": 0,
+        "title": "Kitain Cross Spear",
+        "revisions": [
+          {
+            "revid": 1863723,
+            "parentid": 1806318,
+            "timestamp": "2025-10-15T21:46:40Z"
+          }
+        ]
+      },
+      "198604": {
+        "pageid": 198604,
+        "ns": 0,
+        "title": "Light of Foliar Incision",
+        "revisions": [
+          {
+            "revid": 2171826,
+            "parentid": 2089057,
+            "timestamp": "2026-09-10T01:12:28Z"
+          }
+        ]
+      },
+      "429503": {
+        "pageid": 429503,
+        "ns": 0,
+        "title": "Lightbearing Moonshard",
+        "revisions": [
+          {
+            "revid": 2173890,
+            "parentid": 2172121,
+            "timestamp": "2026-09-12T19:47:13Z"
+          }
+        ]
+      },
+      "791": {
+        "pageid": 791,
+        "ns": 0,
+        "title": "Lion's Roar",
+        "revisions": [
+          {
+            "revid": 1806082,
+            "parentid": 1779817,
+            "timestamp": "2025-08-26T14:44:03Z"
+          }
+        ]
+      },
+      "1515": {
+        "pageid": 1515,
+        "ns": 0,
+        "title": "Lithic Blade",
+        "revisions": [
+          {
+            "revid": 2137795,
+            "parentid": 2137794,
+            "timestamp": "2026-08-01T15:19:19Z"
+          }
+        ]
+      },
+      "1513": {
+        "pageid": 1513,
+        "ns": 0,
+        "title": "Lithic Spear",
+        "revisions": [
+          {
+            "revid": 2137796,
+            "parentid": 2137793,
+            "timestamp": "2026-08-01T15:19:31Z"
+          }
+        ]
+      },
+      "644": {
+        "pageid": 644,
+        "ns": 0,
+        "title": "Lost Prayer to the Sacred Winds",
+        "revisions": [
+          {
+            "revid": 1806348,
+            "parentid": 1676914,
+            "timestamp": "2025-08-26T15:59:34Z"
+          }
+        ]
+      },
+      "316123": {
+        "pageid": 316123,
+        "ns": 0,
+        "title": "Lumidouce Elegy",
+        "revisions": [
+          {
+            "revid": 2135440,
+            "parentid": 2114702,
+            "timestamp": "2026-07-24T19:05:54Z"
+          }
+        ]
+      },
+      "80357": {
+        "pageid": 80357,
+        "ns": 0,
+        "title": "Luxurious Sea-Lord",
+        "revisions": [
+          {
+            "revid": 2194594,
+            "parentid": 2053981,
+            "timestamp": "2026-10-11T19:18:22Z"
+          }
+        ]
+      },
+      "673": {
+        "pageid": 673,
+        "ns": 0,
+        "title": "Magic Guide",
+        "revisions": [
+          {
+            "revid": 1806106,
+            "parentid": 1691962,
+            "timestamp": "2025-08-26T14:49:36Z"
+          }
+        ]
+      },
+      "209268": {
+        "pageid": 209268,
+        "ns": 0,
+        "title": "Mailed Flower",
+        "revisions": [
+          {
+            "revid": 2114713,
+            "parentid": 1966230,
+            "timestamp": "2026-06-24T14:59:02Z"
+          }
+        ]
+      },
+      "167248": {
+        "pageid": 167248,
+        "ns": 0,
+        "title": "Makhaira Aquamarine",
+        "revisions": [
+          {
+            "revid": 2174429,
+            "parentid": 2067364,
+            "timestamp": "2026-09-13T14:23:27Z"
+          }
+        ]
+      },
+      "657": {
+        "pageid": 657,
+        "ns": 0,
+        "title": "Mappa Mare",
+        "revisions": [
+          {
+            "revid": 2064952,
+            "parentid": 1806138,
+            "timestamp": "2026-03-12T16:32:47Z"
+          }
+        ]
+      },
+      "395261": {
+        "pageid": 395261,
+        "ns": 0,
+        "title": "Master Key",
+        "revisions": [
+          {
+            "revid": 2198890,
+            "parentid": 2064614,
+            "timestamp": "2026-10-24T14:06:28Z"
+          }
+        ]
+      },
+      "16091": {
+        "pageid": 16091,
+        "ns": 0,
+        "title": "Memory of Dust",
+        "revisions": [
+          {
+            "revid": 1806387,
+            "parentid": 1692111,
+            "timestamp": "2025-08-26T16:30:28Z"
+          }
+        ]
+      },
+      "1311": {
+        "pageid": 1311,
+        "ns": 0,
+        "title": "Messenger",
+        "revisions": [
+          {
+            "revid": 1806390,
+            "parentid": 1677087,
+            "timestamp": "2025-08-26T16:31:57Z"
+          }
+        ]
+      },
+      "167235": {
+        "pageid": 167235,
+        "ns": 0,
+        "title": "Missive Windspear",
+        "revisions": [
+          {
+            "revid": 2114712,
+            "parentid": 1966127,
+            "timestamp": "2026-06-24T14:58:59Z"
+          }
+        ]
+      },
+      "64146": {
+        "pageid": 64146,
+        "ns": 0,
+        "title": "Mistsplitter Reforged",
+        "revisions": [
+          {
+            "revid": 2171863,
+            "parentid": 1806408,
+            "timestamp": "2026-09-10T02:04:48Z"
+          }
+        ]
+      },
+      "56672": {
+        "pageid": 56672,
+        "ns": 0,
+        "title": "Mitternachts Waltz",
+        "revisions": [
+          {
+            "revid": 2163556,
+            "parentid": 2067366,
+            "timestamp": "2026-08-24T22:46:33Z"
+          }
+        ]
+      },
+      "154043": {
+        "pageid": 154043,
+        "ns": 0,
+        "title": "Moonpiercer",
+        "revisions": [
+          {
+            "revid": 2040230,
+            "parentid": 2040229,
+            "timestamp": "2026-01-22T06:33:08Z"
+          }
+        ]
+      },
+      "397103": {
+        "pageid": 397103,
+        "ns": 0,
+        "title": "Moonweaver's Dawn",
+        "revisions": [
+          {
+            "revid": 2198889,
+            "parentid": 2143150,
+            "timestamp": "2026-10-24T14:05:11Z"
+          }
+        ]
+      },
+      "335055": {
+        "pageid": 335055,
+        "ns": 0,
+        "title": "Mountain-Bracing Bolt",
+        "revisions": [
+          {
+            "revid": 2064352,
+            "parentid": 2042152,
+            "timestamp": "2026-03-10T21:45:22Z"
+          }
+        ]
+      },
+      "95713": {
+        "pageid": 95713,
+        "ns": 0,
+        "title": "Mouun's Moon",
+        "revisions": [
+          {
+            "revid": 1965909,
+            "parentid": 1863774,
+            "timestamp": "2026-01-11T21:56:51Z"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "source": "Penpot Icons component variants",
+  "fileId": "8af72ccb-2daf-802c-8008-d2a500c29382",
+  "pageId": "0feccaaa-b4f4-80a7-8008-d3ccc72020b8",
+  "componentId": "87f7e5a7-d41f-8046-8008-e3a2477c56b9",
+  "artworkCopyright": "HoYoverse",
+  "assets": [
+    {
+      "file": "element-pyro.svg",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3a2477bb482",
+      "export": "native SVG markup"
+    },
+    {
+      "file": "element-hydro.svg",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3a2a3b6173c",
+      "export": "native SVG markup"
+    },
+    {
+      "file": "element-anemo.svg",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3a0945033c0",
+      "export": "native SVG markup"
+    },
+    {
+      "file": "element-electro.svg",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3a07dc5021a",
+      "export": "native SVG markup"
+    },
+    {
+      "file": "element-dendro.svg",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3a2dd0e9cf7",
+      "export": "native SVG markup"
+    },
+    {
+      "file": "element-cryo.svg",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3a11992330c",
+      "export": "native SVG markup"
+    },
+    {
+      "file": "element-geo.svg",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3a2f5c720c5",
+      "export": "native SVG markup"
+    },
+    {
+      "file": "weapon-sword.png",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3ce371ae782",
+      "export": "PNG at 2x"
+    },
+    {
+      "file": "weapon-claymore.png",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3ce34dc5a41",
+      "export": "PNG at 2x"
+    },
+    {
+      "file": "weapon-polearm.png",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3ce35a41ff8",
+      "export": "PNG at 2x"
+    },
+    {
+      "file": "weapon-bow.png",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3ce33082dce",
+      "export": "PNG at 2x"
+    },
+    {
+      "file": "weapon-catalyst.png",
+      "shapeId": "87f7e5a7-d41f-8046-8008-e3ce341d26d2",
+      "export": "PNG at 2x"
+    }
+  ]
+}

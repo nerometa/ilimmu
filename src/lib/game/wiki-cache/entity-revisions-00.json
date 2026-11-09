@@ -1,0 +1,607 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "429511": {
+        "pageid": 429511,
+        "ns": 0,
+        "title": "A Day Carved From Rising Winds",
+        "revisions": [
+          {
+            "revid": 2142593,
+            "parentid": 2089408,
+            "timestamp": "2026-08-12T07:03:53Z"
+          }
+        ]
+      },
+      "2634": {
+        "pageid": 2634,
+        "ns": 0,
+        "title": "Adventurer",
+        "revisions": [
+          {
+            "revid": 2142689,
+            "parentid": 2053930,
+            "timestamp": "2026-08-12T07:25:16Z"
+          }
+        ]
+      },
+      "8068": {
+        "pageid": 8068,
+        "ns": 0,
+        "title": "Archaic Petra",
+        "revisions": [
+          {
+            "revid": 2142651,
+            "parentid": 2110699,
+            "timestamp": "2026-08-12T07:17:36Z"
+          }
+        ]
+      },
+      "429510": {
+        "pageid": 429510,
+        "ns": 0,
+        "title": "Aubade of Morningstar and Moon",
+        "revisions": [
+          {
+            "revid": 2192606,
+            "parentid": 2142594,
+            "timestamp": "2026-10-05T12:04:15Z"
+          }
+        ]
+      },
+      "4490": {
+        "pageid": 4490,
+        "ns": 0,
+        "title": "Berserker",
+        "revisions": [
+          {
+            "revid": 2142680,
+            "parentid": 1629082,
+            "timestamp": "2026-08-12T07:23:52Z"
+          }
+        ]
+      },
+      "18924": {
+        "pageid": 18924,
+        "ns": 0,
+        "title": "Blizzard Strayer",
+        "revisions": [
+          {
+            "revid": 2142638,
+            "parentid": 2110692,
+            "timestamp": "2026-08-12T07:13:24Z"
+          }
+        ]
+      },
+      "7397": {
+        "pageid": 7397,
+        "ns": 0,
+        "title": "Bloodstained Chivalry",
+        "revisions": [
+          {
+            "revid": 2142655,
+            "parentid": 2110703,
+            "timestamp": "2026-08-12T07:18:26Z"
+          }
+        ]
+      },
+      "7370": {
+        "pageid": 7370,
+        "ns": 0,
+        "title": "Brave Heart",
+        "revisions": [
+          {
+            "revid": 2142675,
+            "parentid": 1651320,
+            "timestamp": "2026-08-12T07:22:51Z"
+          }
+        ]
+      },
+      "456588": {
+        "pageid": 456588,
+        "ns": 0,
+        "title": "Celestial Gift",
+        "revisions": [
+          {
+            "revid": 2166967,
+            "parentid": 2142591,
+            "timestamp": "2026-08-31T20:11:35Z"
+          }
+        ]
+      },
+      "8066": {
+        "pageid": 8066,
+        "ns": 0,
+        "title": "Crimson Witch of Flames",
+        "revisions": [
+          {
+            "revid": 2142642,
+            "parentid": 2110693,
+            "timestamp": "2026-08-12T07:15:19Z"
+          }
+        ]
+      },
+      "154031": {
+        "pageid": 154031,
+        "ns": 0,
+        "title": "Deepwood Memories",
+        "revisions": [
+          {
+            "revid": 2142622,
+            "parentid": 1853865,
+            "timestamp": "2026-08-12T07:10:26Z"
+          }
+        ]
+      },
+      "7394": {
+        "pageid": 7394,
+        "ns": 0,
+        "title": "Defender's Will",
+        "revisions": [
+          {
+            "revid": 2142676,
+            "parentid": 1629175,
+            "timestamp": "2026-08-12T07:23:12Z"
+          }
+        ]
+      },
+      "187709": {
+        "pageid": 187709,
+        "ns": 0,
+        "title": "Desert Pavilion Chronicle",
+        "revisions": [
+          {
+            "revid": 2199355,
+            "parentid": 2199354,
+            "timestamp": "2026-10-26T21:27:18Z"
+          }
+        ]
+      },
+      "456589": {
+        "pageid": 456589,
+        "ns": 0,
+        "title": "Disenchantment in Deep Shadow",
+        "revisions": [
+          {
+            "revid": 2166940,
+            "parentid": 2142590,
+            "timestamp": "2026-08-31T20:04:16Z"
+          }
+        ]
+      },
+      "126426": {
+        "pageid": 126426,
+        "ns": 0,
+        "title": "Echoes of an Offering",
+        "revisions": [
+          {
+            "revid": 2142623,
+            "parentid": 1790756,
+            "timestamp": "2026-08-12T07:10:43Z"
+          }
+        ]
+      },
+      "64110": {
+        "pageid": 64110,
+        "ns": 0,
+        "title": "Emblem of Severed Fate",
+        "revisions": [
+          {
+            "revid": 2142628,
+            "parentid": 1770752,
+            "timestamp": "2026-08-12T07:11:59Z"
+          }
+        ]
+      },
+      "365283": {
+        "pageid": 365283,
+        "ns": 0,
+        "title": "Finale of the Deep Galleries",
+        "revisions": [
+          {
+            "revid": 2142601,
+            "parentid": 2110685,
+            "timestamp": "2026-08-12T07:05:23Z"
+          }
+        ]
+      },
+      "187748": {
+        "pageid": 187748,
+        "ns": 0,
+        "title": "Flower of Paradise Lost",
+        "revisions": [
+          {
+            "revid": 2142619,
+            "parentid": 2141765,
+            "timestamp": "2026-08-12T07:09:37Z"
+          }
+        ]
+      },
+      "301845": {
+        "pageid": 301845,
+        "ns": 0,
+        "title": "Fragment of Harmonic Whimsy",
+        "revisions": [
+          {
+            "revid": 2142609,
+            "parentid": 2110678,
+            "timestamp": "2026-08-12T07:07:09Z"
+          }
+        ]
+      },
+      "7404": {
+        "pageid": 7404,
+        "ns": 0,
+        "title": "Gambler",
+        "revisions": [
+          {
+            "revid": 2142672,
+            "parentid": 1860734,
+            "timestamp": "2026-08-12T07:22:09Z"
+          }
+        ]
+      },
+      "154034": {
+        "pageid": 154034,
+        "ns": 0,
+        "title": "Gilded Dreams",
+        "revisions": [
+          {
+            "revid": 2142621,
+            "parentid": 2043674,
+            "timestamp": "2026-08-12T07:10:10Z"
+          }
+        ]
+      },
+      "2051": {
+        "pageid": 2051,
+        "ns": 0,
+        "title": "Gladiator's Finale",
+        "revisions": [
+          {
+            "revid": 2142660,
+            "parentid": 2110705,
+            "timestamp": "2026-08-12T07:19:35Z"
+          }
+        ]
+      },
+      "241258": {
+        "pageid": 241258,
+        "ns": 0,
+        "title": "Golden Troupe",
+        "revisions": [
+          {
+            "revid": 2142613,
+            "parentid": 1713494,
+            "timestamp": "2026-08-12T07:08:12Z"
+          }
+        ]
+      },
+      "19827": {
+        "pageid": 19827,
+        "ns": 0,
+        "title": "Heart of Depth",
+        "revisions": [
+          {
+            "revid": 2142637,
+            "parentid": 2110691,
+            "timestamp": "2026-08-12T07:13:08Z"
+          }
+        ]
+      },
+      "477232": {
+        "pageid": 477232,
+        "ns": 0,
+        "title": "Heart of the Furnace",
+        "revisions": [
+          {
+            "revid": 2174463,
+            "parentid": 2171208,
+            "timestamp": "2026-09-13T14:38:57Z"
+          }
+        ]
+      },
+      "103636": {
+        "pageid": 103636,
+        "ns": 0,
+        "title": "Husk of Opulent Dreams",
+        "revisions": [
+          {
+            "revid": 2142627,
+            "parentid": 1774005,
+            "timestamp": "2026-08-12T07:11:37Z"
+          }
+        ]
+      },
+      "6108": {
+        "pageid": 6108,
+        "ns": 0,
+        "title": "Instructor",
+        "revisions": [
+          {
+            "revid": 2142677,
+            "parentid": 1935306,
+            "timestamp": "2026-08-12T07:23:30Z"
+          }
+        ]
+      },
+      "8067": {
+        "pageid": 8067,
+        "ns": 0,
+        "title": "Lavawalker",
+        "revisions": [
+          {
+            "revid": 2142646,
+            "parentid": 2110694,
+            "timestamp": "2026-08-12T07:16:19Z"
+          }
+        ]
+      },
+      "365282": {
+        "pageid": 365282,
+        "ns": 0,
+        "title": "Long Night's Oath",
+        "revisions": [
+          {
+            "revid": 2142603,
+            "parentid": 2110683,
+            "timestamp": "2026-08-12T07:05:41Z"
+          }
+        ]
+      },
+      "4465": {
+        "pageid": 4465,
+        "ns": 0,
+        "title": "Lucky Dog",
+        "revisions": [
+          {
+            "revid": 2142687,
+            "parentid": 1851714,
+            "timestamp": "2026-08-12T07:25:02Z"
+          }
+        ]
+      },
+      "7284": {
+        "pageid": 7284,
+        "ns": 0,
+        "title": "Maiden Beloved",
+        "revisions": [
+          {
+            "revid": 2142653,
+            "parentid": 2138691,
+            "timestamp": "2026-08-12T07:18:09Z"
+          }
+        ]
+      },
+      "241259": {
+        "pageid": 241259,
+        "ns": 0,
+        "title": "Marechaussee Hunter",
+        "revisions": [
+          {
+            "revid": 2142614,
+            "parentid": 2062529,
+            "timestamp": "2026-08-12T07:08:33Z"
+          }
+        ]
+      },
+      "6474": {
+        "pageid": 6474,
+        "ns": 0,
+        "title": "Martial Artist",
+        "revisions": [
+          {
+            "revid": 2142673,
+            "parentid": 1651323,
+            "timestamp": "2026-08-12T07:22:32Z"
+          }
+        ]
+      },
+      "395188": {
+        "pageid": 395188,
+        "ns": 0,
+        "title": "Night of the Sky's Unveiling",
+        "revisions": [
+          {
+            "revid": 2142598,
+            "parentid": 2070790,
+            "timestamp": "2026-08-12T07:05:02Z"
+          }
+        ]
+      },
+      "275132": {
+        "pageid": 275132,
+        "ns": 0,
+        "title": "Nighttime Whispers in the Echoing Woods",
+        "revisions": [
+          {
+            "revid": 2142610,
+            "parentid": 2110677,
+            "timestamp": "2026-08-12T07:07:32Z"
+          }
+        ]
+      },
+      "7363": {
+        "pageid": 7363,
+        "ns": 0,
+        "title": "Noblesse Oblige",
+        "revisions": [
+          {
+            "revid": 2143689,
+            "parentid": 2142657,
+            "timestamp": "2026-08-12T20:32:00Z"
+          }
+        ]
+      },
+      "219006": {
+        "pageid": 219006,
+        "ns": 0,
+        "title": "Nymph's Dream",
+        "revisions": [
+          {
+            "revid": 2177585,
+            "parentid": 2142618,
+            "timestamp": "2026-09-19T15:15:40Z"
+          }
+        ]
+      },
+      "322505": {
+        "pageid": 322505,
+        "ns": 0,
+        "title": "Obsidian Codex",
+        "revisions": [
+          {
+            "revid": 2142605,
+            "parentid": 2136689,
+            "timestamp": "2026-08-12T07:06:05Z"
+          }
+        ]
+      },
+      "103634": {
+        "pageid": 103634,
+        "ns": 0,
+        "title": "Ocean-Hued Clam",
+        "revisions": [
+          {
+            "revid": 2142626,
+            "parentid": 1683562,
+            "timestamp": "2026-08-12T07:11:21Z"
+          }
+        ]
+      },
+      "45840": {
+        "pageid": 45840,
+        "ns": 0,
+        "title": "Pale Flame",
+        "revisions": [
+          {
+            "revid": 2151232,
+            "parentid": 2142630,
+            "timestamp": "2026-08-15T21:44:55Z"
+          }
+        ]
+      },
+      "8105": {
+        "pageid": 8105,
+        "ns": 0,
+        "title": "Prayers for Destiny",
+        "revisions": [
+          {
+            "revid": 2142667,
+            "parentid": 1629544,
+            "timestamp": "2026-08-12T07:21:10Z"
+          }
+        ]
+      },
+      "8104": {
+        "pageid": 8104,
+        "ns": 0,
+        "title": "Prayers for Illumination",
+        "revisions": [
+          {
+            "revid": 2142666,
+            "parentid": 1595573,
+            "timestamp": "2026-08-12T07:20:43Z"
+          }
+        ]
+      },
+      "8101": {
+        "pageid": 8101,
+        "ns": 0,
+        "title": "Prayers for Wisdom",
+        "revisions": [
+          {
+            "revid": 2142668,
+            "parentid": 1629545,
+            "timestamp": "2026-08-12T07:21:27Z"
+          }
+        ]
+      },
+      "8103": {
+        "pageid": 8103,
+        "ns": 0,
+        "title": "Prayers to Springtime",
+        "revisions": [
+          {
+            "revid": 2142662,
+            "parentid": 1629546,
+            "timestamp": "2026-08-12T07:20:14Z"
+          }
+        ]
+      },
+      "6441": {
+        "pageid": 6441,
+        "ns": 0,
+        "title": "Resolution of Sojourner",
+        "revisions": [
+          {
+            "revid": 2142683,
+            "parentid": 1860735,
+            "timestamp": "2026-08-12T07:24:29Z"
+          }
+        ]
+      },
+      "8083": {
+        "pageid": 8083,
+        "ns": 0,
+        "title": "Retracing Bolide",
+        "revisions": [
+          {
+            "revid": 2142650,
+            "parentid": 2110698,
+            "timestamp": "2026-08-12T07:17:21Z"
+          }
+        ]
+      },
+      "477231": {
+        "pageid": 477231,
+        "ns": 0,
+        "title": "Scarlet Proof",
+        "revisions": [
+          {
+            "revid": 2172889,
+            "parentid": 2171248,
+            "timestamp": "2026-09-11T21:43:47Z"
+          }
+        ]
+      },
+      "7408": {
+        "pageid": 7408,
+        "ns": 0,
+        "title": "Scholar",
+        "revisions": [
+          {
+            "revid": 2142670,
+            "parentid": 1738853,
+            "timestamp": "2026-08-12T07:21:53Z"
+          }
+        ]
+      },
+      "322506": {
+        "pageid": 322506,
+        "ns": 0,
+        "title": "Scroll of the Hero of Cinder City",
+        "revisions": [
+          {
+            "revid": 2142607,
+            "parentid": 2110680,
+            "timestamp": "2026-08-12T07:06:23Z"
+          }
+        ]
+      },
+      "64111": {
+        "pageid": 64111,
+        "ns": 0,
+        "title": "Shimenawa's Reminiscence",
+        "revisions": [
+          {
+            "revid": 2142629,
+            "parentid": 1853864,
+            "timestamp": "2026-08-12T07:12:17Z"
+          }
+        ]
+      }
+    }
+  }
+}

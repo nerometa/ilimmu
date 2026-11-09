@@ -1,0 +1,439 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "15024": {
+        "pageid": 15024,
+        "ns": 0,
+        "title": "Rosaria",
+        "revisions": [
+          {
+            "revid": 2067359,
+            "parentid": 1965623,
+            "timestamp": "2026-03-20T16:07:41Z"
+          }
+        ]
+      },
+      "44664": {
+        "pageid": 44664,
+        "ns": 0,
+        "title": "Sandrone",
+        "revisions": [
+          {
+            "revid": 2195472,
+            "parentid": 2192472,
+            "timestamp": "2026-10-14T03:33:25Z"
+          }
+        ]
+      },
+      "63989": {
+        "pageid": 63989,
+        "ns": 0,
+        "title": "Sangonomiya Kokomi",
+        "revisions": [
+          {
+            "revid": 2193822,
+            "parentid": 2141721,
+            "timestamp": "2026-10-08T12:55:20Z"
+          }
+        ]
+      },
+      "57432": {
+        "pageid": 57432,
+        "ns": 0,
+        "title": "Sayu",
+        "revisions": [
+          {
+            "revid": 1965781,
+            "parentid": 1862209,
+            "timestamp": "2026-01-11T21:49:32Z"
+          }
+        ]
+      },
+      "301808": {
+        "pageid": 301808,
+        "ns": 0,
+        "title": "Sethos",
+        "revisions": [
+          {
+            "revid": 2189751,
+            "parentid": 1966490,
+            "timestamp": "2026-10-02T02:42:29Z"
+          }
+        ]
+      },
+      "96984": {
+        "pageid": 96984,
+        "ns": 0,
+        "title": "Shenhe",
+        "revisions": [
+          {
+            "revid": 2043631,
+            "parentid": 1965911,
+            "timestamp": "2026-01-30T09:05:01Z"
+          }
+        ]
+      },
+      "68079": {
+        "pageid": 68079,
+        "ns": 0,
+        "title": "Shikanoin Heizou",
+        "revisions": [
+          {
+            "revid": 2141726,
+            "parentid": 2092822,
+            "timestamp": "2026-08-10T19:12:10Z"
+          }
+        ]
+      },
+      "236166": {
+        "pageid": 236166,
+        "ns": 0,
+        "title": "Sigewinne",
+        "revisions": [
+          {
+            "revid": 2192018,
+            "parentid": 1862246,
+            "timestamp": "2026-10-04T15:01:53Z"
+          }
+        ]
+      },
+      "26731": {
+        "pageid": 26731,
+        "ns": 0,
+        "title": "Skirk",
+        "revisions": [
+          {
+            "revid": 2152614,
+            "parentid": 2152613,
+            "timestamp": "2026-08-17T07:04:24Z"
+          }
+        ]
+      },
+      "1609": {
+        "pageid": 1609,
+        "ns": 0,
+        "title": "Sucrose",
+        "revisions": [
+          {
+            "revid": 2073443,
+            "parentid": 2073217,
+            "timestamp": "2026-04-08T11:09:16Z"
+          }
+        ]
+      },
+      "2180": {
+        "pageid": 2180,
+        "ns": 0,
+        "title": "Tartaglia",
+        "revisions": [
+          {
+            "revid": 2199040,
+            "parentid": 2195190,
+            "timestamp": "2026-10-24T23:43:11Z"
+          }
+        ]
+      },
+      "63994": {
+        "pageid": 63994,
+        "ns": 0,
+        "title": "Thoma",
+        "revisions": [
+          {
+            "revid": 1965807,
+            "parentid": 1863694,
+            "timestamp": "2026-01-11T21:51:16Z"
+          }
+        ]
+      },
+      "144326": {
+        "pageid": 144326,
+        "ns": 0,
+        "title": "Tighnari",
+        "revisions": [
+          {
+            "revid": 2189741,
+            "parentid": 2093170,
+            "timestamp": "2026-10-02T02:23:58Z"
+          }
+        ]
+      },
+      "136": {
+        "pageid": 136,
+        "ns": 0,
+        "title": "Traveler",
+        "revisions": [
+          {
+            "revid": 2199581,
+            "parentid": 2169846,
+            "timestamp": "2026-10-28T01:21:12Z"
+          }
+        ]
+      },
+      "350191": {
+        "pageid": 350191,
+        "ns": 0,
+        "title": "Varesa",
+        "revisions": [
+          {
+            "revid": 2191887,
+            "parentid": 2069630,
+            "timestamp": "2026-10-04T03:50:21Z"
+          }
+        ]
+      },
+      "14459": {
+        "pageid": 14459,
+        "ns": 0,
+        "title": "Varka",
+        "revisions": [
+          {
+            "revid": 2111094,
+            "parentid": 2105734,
+            "timestamp": "2026-06-12T10:18:23Z"
+          }
+        ]
+      },
+      "216": {
+        "pageid": 216,
+        "ns": 0,
+        "title": "Venti",
+        "revisions": [
+          {
+            "revid": 2115108,
+            "parentid": 2115021,
+            "timestamp": "2026-06-25T22:43:37Z"
+          }
+        ]
+      },
+      "467686": {
+        "pageid": 467686,
+        "ns": 0,
+        "title": "Vesna",
+        "revisions": [
+          {
+            "revid": 2196408,
+            "parentid": 2196405,
+            "timestamp": "2026-10-18T22:56:18Z"
+          }
+        ]
+      },
+      "452743": {
+        "pageid": 452743,
+        "ns": 0,
+        "title": "Vodyanitsa",
+        "revisions": [
+          {
+            "revid": 2196418,
+            "parentid": 2196397,
+            "timestamp": "2026-10-18T23:17:15Z"
+          }
+        ]
+      },
+      "179077": {
+        "pageid": 179077,
+        "ns": 0,
+        "title": "Wanderer",
+        "revisions": [
+          {
+            "revid": 2189964,
+            "parentid": 2135784,
+            "timestamp": "2026-10-02T17:39:57Z"
+          }
+        ]
+      },
+      "236151": {
+        "pageid": 236151,
+        "ns": 0,
+        "title": "Wriothesley",
+        "revisions": [
+          {
+            "revid": 2114107,
+            "parentid": 1862356,
+            "timestamp": "2026-06-21T04:57:31Z"
+          }
+        ]
+      },
+      "224": {
+        "pageid": 224,
+        "ns": 0,
+        "title": "Xiangling",
+        "revisions": [
+          {
+            "revid": 2053105,
+            "parentid": 1965477,
+            "timestamp": "2026-02-22T00:43:07Z"
+          }
+        ]
+      },
+      "276277": {
+        "pageid": 276277,
+        "ns": 0,
+        "title": "Xianyun",
+        "revisions": [
+          {
+            "revid": 2178710,
+            "parentid": 1903430,
+            "timestamp": "2026-09-21T22:54:08Z"
+          }
+        ]
+      },
+      "227": {
+        "pageid": 227,
+        "ns": 0,
+        "title": "Xiao",
+        "revisions": [
+          {
+            "revid": 2076899,
+            "parentid": 2063987,
+            "timestamp": "2026-04-12T19:17:54Z"
+          }
+        ]
+      },
+      "316437": {
+        "pageid": 316437,
+        "ns": 0,
+        "title": "Xilonen",
+        "revisions": [
+          {
+            "revid": 1862394,
+            "parentid": 1856264,
+            "timestamp": "2025-10-14T11:58:19Z"
+          }
+        ]
+      },
+      "246": {
+        "pageid": 246,
+        "ns": 0,
+        "title": "Xingqiu",
+        "revisions": [
+          {
+            "revid": 2110611,
+            "parentid": 2053112,
+            "timestamp": "2026-06-11T21:33:34Z"
+          }
+        ]
+      },
+      "13692": {
+        "pageid": 13692,
+        "ns": 0,
+        "title": "Xinyan",
+        "revisions": [
+          {
+            "revid": 2195867,
+            "parentid": 2053114,
+            "timestamp": "2026-10-16T04:24:06Z"
+          }
+        ]
+      },
+      "20337": {
+        "pageid": 20337,
+        "ns": 0,
+        "title": "Yae Miko",
+        "revisions": [
+          {
+            "revid": 2114105,
+            "parentid": 1965702,
+            "timestamp": "2026-06-21T04:57:31Z"
+          }
+        ]
+      },
+      "45762": {
+        "pageid": 45762,
+        "ns": 0,
+        "title": "Yanfei",
+        "revisions": [
+          {
+            "revid": 2130438,
+            "parentid": 2053115,
+            "timestamp": "2026-07-16T15:28:00Z"
+          }
+        ]
+      },
+      "14602": {
+        "pageid": 14602,
+        "ns": 0,
+        "title": "Yaoyao",
+        "revisions": [
+          {
+            "revid": 2053117,
+            "parentid": 1965600,
+            "timestamp": "2026-02-22T00:54:43Z"
+          }
+        ]
+      },
+      "127111": {
+        "pageid": 127111,
+        "ns": 0,
+        "title": "Yelan",
+        "revisions": [
+          {
+            "revid": 1966006,
+            "parentid": 1872317,
+            "timestamp": "2026-01-11T22:01:55Z"
+          }
+        ]
+      },
+      "57433": {
+        "pageid": 57433,
+        "ns": 0,
+        "title": "Yoimiya",
+        "revisions": [
+          {
+            "revid": 1965782,
+            "parentid": 1863649,
+            "timestamp": "2026-01-11T21:49:40Z"
+          }
+        ]
+      },
+      "357412": {
+        "pageid": 357412,
+        "ns": 0,
+        "title": "Yumemizuki Mizuki",
+        "revisions": [
+          {
+            "revid": 2189744,
+            "parentid": 2117417,
+            "timestamp": "2026-10-02T02:27:07Z"
+          }
+        ]
+      },
+      "14942": {
+        "pageid": 14942,
+        "ns": 0,
+        "title": "Yun Jin",
+        "revisions": [
+          {
+            "revid": 2053116,
+            "parentid": 1965606,
+            "timestamp": "2026-02-22T00:54:27Z"
+          }
+        ]
+      },
+      "1837": {
+        "pageid": 1837,
+        "ns": 0,
+        "title": "Zhongli",
+        "revisions": [
+          {
+            "revid": 2115109,
+            "parentid": 2115022,
+            "timestamp": "2026-06-25T22:43:38Z"
+          }
+        ]
+      },
+      "425891": {
+        "pageid": 425891,
+        "ns": 0,
+        "title": "Zibai",
+        "revisions": [
+          {
+            "revid": 2172039,
+            "parentid": 2133623,
+            "timestamp": "2026-09-10T15:36:25Z"
+          }
+        ]
+      }
+    }
+  }
+}

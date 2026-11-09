@@ -1,0 +1,607 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "80419": {
+        "pageid": 80419,
+        "ns": 0,
+        "title": "\"The Catch\"",
+        "revisions": [
+          {
+            "revid": 2065759,
+            "parentid": 1856936,
+            "timestamp": "2026-03-14T12:37:12Z"
+          }
+        ]
+      },
+      "274972": {
+        "pageid": 274972,
+        "ns": 0,
+        "title": "\"Ultimate Overlord's Mega Magic Sword\"",
+        "revisions": [
+          {
+            "revid": 1966442,
+            "parentid": 1765834,
+            "timestamp": "2026-01-11T22:24:34Z"
+          }
+        ]
+      },
+      "467450": {
+        "pageid": 467450,
+        "ns": 0,
+        "title": "A Teaspoon of Transcendence",
+        "revisions": [
+          {
+            "revid": 2183628,
+            "parentid": 2172552,
+            "timestamp": "2026-09-24T23:26:54Z"
+          }
+        ]
+      },
+      "350852": {
+        "pageid": 350852,
+        "ns": 0,
+        "title": "A Thousand Blazing Suns",
+        "revisions": [
+          {
+            "revid": 2193947,
+            "parentid": 2130110,
+            "timestamp": "2026-10-08T21:27:42Z"
+          }
+        ]
+      },
+      "178517": {
+        "pageid": 178517,
+        "ns": 0,
+        "title": "A Thousand Floating Dreams",
+        "revisions": [
+          {
+            "revid": 2130111,
+            "parentid": 2089069,
+            "timestamp": "2026-07-15T22:09:16Z"
+          }
+        ]
+      },
+      "308294": {
+        "pageid": 308294,
+        "ns": 0,
+        "title": "Absolution",
+        "revisions": [
+          {
+            "revid": 2172117,
+            "parentid": 2135439,
+            "timestamp": "2026-09-10T20:08:24Z"
+          }
+        ]
+      },
+      "95711": {
+        "pageid": 95711,
+        "ns": 0,
+        "title": "Akuoumaru",
+        "revisions": [
+          {
+            "revid": 1965908,
+            "parentid": 1806048,
+            "timestamp": "2026-01-11T21:56:46Z"
+          }
+        ]
+      },
+      "1517": {
+        "pageid": 1517,
+        "ns": 0,
+        "title": "Alley Hunter",
+        "revisions": [
+          {
+            "revid": 2135091,
+            "parentid": 2101233,
+            "timestamp": "2026-07-23T16:22:41Z"
+          }
+        ]
+      },
+      "64141": {
+        "pageid": 64141,
+        "ns": 0,
+        "title": "Amenoma Kageuchi",
+        "revisions": [
+          {
+            "revid": 2172164,
+            "parentid": 1806072,
+            "timestamp": "2026-09-10T21:40:57Z"
+          }
+        ]
+      },
+      "611": {
+        "pageid": 611,
+        "ns": 0,
+        "title": "Amos' Bow",
+        "revisions": [
+          {
+            "revid": 2188561,
+            "parentid": 2171965,
+            "timestamp": "2026-09-30T13:21:33Z"
+          }
+        ]
+      },
+      "456583": {
+        "pageid": 456583,
+        "ns": 0,
+        "title": "Angelos' Heptades",
+        "revisions": [
+          {
+            "revid": 2182425,
+            "parentid": 2152604,
+            "timestamp": "2026-09-24T00:16:01Z"
+          }
+        ]
+      },
+      "680": {
+        "pageid": 680,
+        "ns": 0,
+        "title": "Apprentice's Notes",
+        "revisions": [
+          {
+            "revid": 2171789,
+            "parentid": 2154344,
+            "timestamp": "2026-09-10T00:17:03Z"
+          }
+        ]
+      },
+      "136042": {
+        "pageid": 136042,
+        "ns": 0,
+        "title": "Aqua Simulacra",
+        "revisions": [
+          {
+            "revid": 2089046,
+            "parentid": 2088591,
+            "timestamp": "2026-05-09T20:37:49Z"
+          }
+        ]
+      },
+      "1573": {
+        "pageid": 1573,
+        "ns": 0,
+        "title": "Aquila Favonia",
+        "revisions": [
+          {
+            "revid": 2172119,
+            "parentid": 1911275,
+            "timestamp": "2026-09-10T20:16:43Z"
+          }
+        ]
+      },
+      "323015": {
+        "pageid": 323015,
+        "ns": 0,
+        "title": "Ash-Graven Drinking Horn",
+        "revisions": [
+          {
+            "revid": 2114785,
+            "parentid": 1863766,
+            "timestamp": "2026-06-24T18:39:19Z"
+          }
+        ]
+      },
+      "344161": {
+        "pageid": 344161,
+        "ns": 0,
+        "title": "Astral Vulture's Crimson Plumage",
+        "revisions": [
+          {
+            "revid": 2114558,
+            "parentid": 2089080,
+            "timestamp": "2026-06-24T00:08:19Z"
+          }
+        ]
+      },
+      "420119": {
+        "pageid": 420119,
+        "ns": 0,
+        "title": "Athame Artis",
+        "revisions": [
+          {
+            "revid": 2172124,
+            "parentid": 2114552,
+            "timestamp": "2026-09-10T20:25:59Z"
+          }
+        ]
+      },
+      "378461": {
+        "pageid": 378461,
+        "ns": 0,
+        "title": "Azurelight",
+        "revisions": [
+          {
+            "revid": 2172147,
+            "parentid": 2163539,
+            "timestamp": "2026-09-10T21:04:55Z"
+          }
+        ]
+      },
+      "254113": {
+        "pageid": 254113,
+        "ns": 0,
+        "title": "Ballad of the Boundless Blue",
+        "revisions": [
+          {
+            "revid": 2114714,
+            "parentid": 1725554,
+            "timestamp": "2026-06-24T14:59:05Z"
+          }
+        ]
+      },
+      "241369": {
+        "pageid": 241369,
+        "ns": 0,
+        "title": "Ballad of the Fjords",
+        "revisions": [
+          {
+            "revid": 2162946,
+            "parentid": 2158932,
+            "timestamp": "2026-08-24T00:20:19Z"
+          }
+        ]
+      },
+      "209269": {
+        "pageid": 209269,
+        "ns": 0,
+        "title": "Beacon of the Reed Sea",
+        "revisions": [
+          {
+            "revid": 2133123,
+            "parentid": 2067258,
+            "timestamp": "2026-07-18T20:05:51Z"
+          }
+        ]
+      },
+      "761": {
+        "pageid": 761,
+        "ns": 0,
+        "title": "Beginner's Protector",
+        "revisions": [
+          {
+            "revid": 2172064,
+            "parentid": 1790043,
+            "timestamp": "2026-09-10T16:14:26Z"
+          }
+        ]
+      },
+      "490859": {
+        "pageid": 490859,
+        "ns": 0,
+        "title": "Beyond the Chrysalis",
+        "revisions": [
+          {
+            "revid": 2192846,
+            "parentid": 2189508,
+            "timestamp": "2026-10-06T11:31:54Z"
+          }
+        ]
+      },
+      "765": {
+        "pageid": 765,
+        "ns": 0,
+        "title": "Black Tassel",
+        "revisions": [
+          {
+            "revid": 2064348,
+            "parentid": 1806378,
+            "timestamp": "2026-03-10T21:29:56Z"
+          }
+        ]
+      },
+      "653": {
+        "pageid": 653,
+        "ns": 0,
+        "title": "Blackcliff Agate",
+        "revisions": [
+          {
+            "revid": 2067358,
+            "parentid": 1806295,
+            "timestamp": "2026-03-20T15:21:34Z"
+          }
+        ]
+      },
+      "603": {
+        "pageid": 603,
+        "ns": 0,
+        "title": "Blackcliff Longsword",
+        "revisions": [
+          {
+            "revid": 2171881,
+            "parentid": 1806298,
+            "timestamp": "2026-09-10T02:24:58Z"
+          }
+        ]
+      },
+      "767": {
+        "pageid": 767,
+        "ns": 0,
+        "title": "Blackcliff Pole",
+        "revisions": [
+          {
+            "revid": 1806292,
+            "parentid": 1676943,
+            "timestamp": "2025-08-26T15:34:17Z"
+          }
+        ]
+      },
+      "1453": {
+        "pageid": 1453,
+        "ns": 0,
+        "title": "Blackcliff Slasher",
+        "revisions": [
+          {
+            "revid": 2168379,
+            "parentid": 1806304,
+            "timestamp": "2026-09-03T10:39:59Z"
+          }
+        ]
+      },
+      "1454": {
+        "pageid": 1454,
+        "ns": 0,
+        "title": "Blackcliff Warbow",
+        "revisions": [
+          {
+            "revid": 1806300,
+            "parentid": 1677110,
+            "timestamp": "2025-08-26T15:38:59Z"
+          }
+        ]
+      },
+      "395287": {
+        "pageid": 395287,
+        "ns": 0,
+        "title": "Blackmarrow Lantern",
+        "revisions": [
+          {
+            "revid": 2133585,
+            "parentid": 2086744,
+            "timestamp": "2026-07-20T10:53:48Z"
+          }
+        ]
+      },
+      "477115": {
+        "pageid": 477115,
+        "ns": 0,
+        "title": "Blade of Atonement",
+        "revisions": [
+          {
+            "revid": 2183784,
+            "parentid": 2183732,
+            "timestamp": "2026-09-25T05:38:15Z"
+          }
+        ]
+      },
+      "395285": {
+        "pageid": 395285,
+        "ns": 0,
+        "title": "Bloodsoaked Ruins",
+        "revisions": [
+          {
+            "revid": 2194927,
+            "parentid": 2169735,
+            "timestamp": "2026-10-12T09:32:16Z"
+          }
+        ]
+      },
+      "735": {
+        "pageid": 735,
+        "ns": 0,
+        "title": "Bloodtainted Greatsword",
+        "revisions": [
+          {
+            "revid": 2112825,
+            "parentid": 1806286,
+            "timestamp": "2026-06-15T04:41:30Z"
+          }
+        ]
+      },
+      "490862": {
+        "pageid": 490862,
+        "ns": 0,
+        "title": "Breezeborne Refrain",
+        "revisions": [
+          {
+            "revid": 2195251,
+            "parentid": 2190078,
+            "timestamp": "2026-10-13T07:04:51Z"
+          }
+        ]
+      },
+      "111861": {
+        "pageid": 111861,
+        "ns": 0,
+        "title": "Calamity Queller",
+        "revisions": [
+          {
+            "revid": 2089048,
+            "parentid": 2088588,
+            "timestamp": "2026-05-09T20:37:50Z"
+          }
+        ]
+      },
+      "344164": {
+        "pageid": 344164,
+        "ns": 0,
+        "title": "Calamity of Eshu",
+        "revisions": [
+          {
+            "revid": 2198955,
+            "parentid": 2172114,
+            "timestamp": "2026-10-24T17:25:27Z"
+          }
+        ]
+      },
+      "254105": {
+        "pageid": 254105,
+        "ns": 0,
+        "title": "Cashflow Supervision",
+        "revisions": [
+          {
+            "revid": 2127343,
+            "parentid": 2122900,
+            "timestamp": "2026-07-10T14:08:51Z"
+          }
+        ]
+      },
+      "395189": {
+        "pageid": 395189,
+        "ns": 0,
+        "title": "Silken Moon's Serenade",
+        "revisions": [
+          {
+            "revid": 2142595,
+            "parentid": 2070789,
+            "timestamp": "2026-08-12T07:04:39Z"
+          }
+        ]
+      },
+      "275133": {
+        "pageid": 275133,
+        "ns": 0,
+        "title": "Song of Days Past",
+        "revisions": [
+          {
+            "revid": 2142612,
+            "parentid": 2110676,
+            "timestamp": "2026-08-12T07:07:50Z"
+          }
+        ]
+      },
+      "45839": {
+        "pageid": 45839,
+        "ns": 0,
+        "title": "Tenacity of the Millelith",
+        "revisions": [
+          {
+            "revid": 2142631,
+            "parentid": 2088138,
+            "timestamp": "2026-08-12T07:12:52Z"
+          }
+        ]
+      },
+      "4489": {
+        "pageid": 4489,
+        "ns": 0,
+        "title": "The Exile",
+        "revisions": [
+          {
+            "revid": 2143692,
+            "parentid": 1629695,
+            "timestamp": "2026-08-12T20:32:24Z"
+          }
+        ]
+      },
+      "8059": {
+        "pageid": 8059,
+        "ns": 0,
+        "title": "Thundering Fury",
+        "revisions": [
+          {
+            "revid": 2142648,
+            "parentid": 2123000,
+            "timestamp": "2026-08-12T07:16:34Z"
+          }
+        ]
+      },
+      "7313": {
+        "pageid": 7313,
+        "ns": 0,
+        "title": "Thundersoother",
+        "revisions": [
+          {
+            "revid": 2142649,
+            "parentid": 2110696,
+            "timestamp": "2026-08-12T07:17:02Z"
+          }
+        ]
+      },
+      "7416": {
+        "pageid": 7416,
+        "ns": 0,
+        "title": "Tiny Miracle",
+        "revisions": [
+          {
+            "revid": 2142681,
+            "parentid": 2024428,
+            "timestamp": "2026-08-12T07:24:10Z"
+          }
+        ]
+      },
+      "4470": {
+        "pageid": 4470,
+        "ns": 0,
+        "title": "Traveling Doctor",
+        "revisions": [
+          {
+            "revid": 2142684,
+            "parentid": 1526668,
+            "timestamp": "2026-08-12T07:24:46Z"
+          }
+        ]
+      },
+      "301844": {
+        "pageid": 301844,
+        "ns": 0,
+        "title": "Unfinished Reverie",
+        "revisions": [
+          {
+            "revid": 2142608,
+            "parentid": 2110679,
+            "timestamp": "2026-08-12T07:06:43Z"
+          }
+        ]
+      },
+      "126425": {
+        "pageid": 126425,
+        "ns": 0,
+        "title": "Vermillion Hereafter",
+        "revisions": [
+          {
+            "revid": 2142625,
+            "parentid": 1854982,
+            "timestamp": "2026-08-12T07:11:02Z"
+          }
+        ]
+      },
+      "7423": {
+        "pageid": 7423,
+        "ns": 0,
+        "title": "Viridescent Venerer",
+        "revisions": [
+          {
+            "revid": 2157281,
+            "parentid": 2144907,
+            "timestamp": "2026-08-20T20:47:58Z"
+          }
+        ]
+      },
+      "219007": {
+        "pageid": 219007,
+        "ns": 0,
+        "title": "Vourukasha's Glow",
+        "revisions": [
+          {
+            "revid": 2142617,
+            "parentid": 1770754,
+            "timestamp": "2026-08-12T07:08:50Z"
+          }
+        ]
+      },
+      "7381": {
+        "pageid": 7381,
+        "ns": 0,
+        "title": "Wanderer's Troupe",
+        "revisions": [
+          {
+            "revid": 2142659,
+            "parentid": 2110704,
+            "timestamp": "2026-08-12T07:19:18Z"
+          }
+        ]
+      }
+    }
+  }
+}

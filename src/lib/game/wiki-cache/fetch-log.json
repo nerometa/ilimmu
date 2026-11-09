@@ -1,0 +1,92 @@
+{
+  "artifact-sets.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=parse&page=Artifact%2FSets&prop=text%7Crevid%7Cimages",
+    "retrievedAt": "2026-11-03T09:56:13.700800+00:00",
+    "sha256": "bd252be4b8884c4debefc8a1605e07dc6552377ce310e85977354c2053d88a54"
+  },
+  "characters.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=parse&page=Character&prop=text%7Crevid%7Cimages",
+    "retrievedAt": "2026-11-03T09:57:10.940291+00:00",
+    "sha256": "a527cd0eb2a7e3af15bf1aa1302fa6877c935ba4541103e26bbec490d6cac39f"
+  },
+  "weapons.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=parse&page=Weapon%2FList&prop=text%7Crevid%7Cimages",
+    "retrievedAt": "2026-11-03T09:57:20.856500+00:00",
+    "sha256": "df0e3831a097227bf05f63809a6ba0b4e414b16604c1b2e1b6143c86d1bbdfe0"
+  },
+  "sword.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=parse&page=Sword&prop=text%7Crevid",
+    "retrievedAt": "2026-11-03T09:58:51.037849+00:00",
+    "sha256": "582977c5e944241493e5bf2726ace2fdbe33728cba6b2b6aaf8613589738ce08"
+  },
+  "claymore.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=parse&page=Claymore&prop=text%7Crevid",
+    "retrievedAt": "2026-11-03T09:58:50.940236+00:00",
+    "sha256": "1cc453c630fe549c8d1d822e4af5145155289abd556538a50f87c5ddcf56cb12"
+  },
+  "polearm.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=parse&page=Polearm&prop=text%7Crevid",
+    "retrievedAt": "2026-11-03T09:58:50.846377+00:00",
+    "sha256": "c28fd351e65e52917ef3923b4fd67eb7fe556494deaf0b5259ffbe3832a735d2"
+  },
+  "catalyst.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=parse&page=Catalyst&prop=text%7Crevid",
+    "retrievedAt": "2026-11-03T09:58:55.420048+00:00",
+    "sha256": "35ba4efd469a085fefb0be9e367011352b8d873a169fe08c1e19e9c90c87a1af"
+  },
+  "bow.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=parse&page=Bow&prop=text%7Crevid",
+    "retrievedAt": "2026-11-03T09:58:53.594562+00:00",
+    "sha256": "ff84ae006c67ee54d09a687bfdbc7c460332e01d2929c0bd99c3a0062451d40a"
+  },
+  "entity-revisions-00.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=A+Day+Carved+From+Rising+Winds%7CAdventurer%7CArchaic+Petra%7CAubade+of+Morningstar+and+Moon%7CBerserker%7CBlizzard+Strayer%7CBloodstained+Chivalry%7CBrave+Heart%7CCelestial+Gift%7CCrimson+Witch+of+Flames%7CDeepwood+Memories%7CDefender%27s+Will%7CDesert+Pavilion+Chronicle%7CDisenchantment+in+Deep+Shadow%7CEchoes+of+an+Offering%7CEmblem+of+Severed+Fate%7CFinale+of+the+Deep+Galleries%7CFlower+of+Paradise+Lost%7CFragment+of+Harmonic+Whimsy%7CGambler%7CGilded+Dreams%7CGladiator%27s+Finale%7CGolden+Troupe%7CHeart+of+Depth%7CHeart+of+the+Furnace%7CHusk+of+Opulent+Dreams%7CInstructor%7CLavawalker%7CLong+Night%27s+Oath%7CLucky+Dog%7CMaiden+Beloved%7CMarechaussee+Hunter%7CMartial+Artist%7CNight+of+the+Sky%27s+Unveiling%7CNighttime+Whispers+in+the+Echoing+Woods%7CNoblesse+Oblige%7CNymph%27s+Dream%7CObsidian+Codex%7COcean-Hued+Clam%7CPale+Flame%7CPrayers+for+Destiny%7CPrayers+for+Illumination%7CPrayers+for+Wisdom%7CPrayers+to+Springtime%7CResolution+of+Sojourner%7CRetracing+Bolide%7CScarlet+Proof%7CScholar%7CScroll+of+the+Hero+of+Cinder+City%7CShimenawa%27s+Reminiscence&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:08.669714+00:00",
+    "sha256": "7328551f0d36de1c3b61ee94ff6d8a4c2acbcccb7e854647742ac4f2bee9b045"
+  },
+  "entity-revisions-01.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=Silken+Moon%27s+Serenade%7CSong+of+Days+Past%7CTenacity+of+the+Millelith%7CThe+Exile%7CThundering+Fury%7CThundersoother%7CTiny+Miracle%7CTraveling+Doctor%7CUnfinished+Reverie%7CVermillion+Hereafter%7CViridescent+Venerer%7CVourukasha%27s+Glow%7CWanderer%27s+Troupe%7C%22The+Catch%22%7C%22Ultimate+Overlord%27s+Mega+Magic+Sword%22%7CA+Teaspoon+of+Transcendence%7CA+Thousand+Blazing+Suns%7CA+Thousand+Floating+Dreams%7CAbsolution%7CAkuoumaru%7CAlley+Hunter%7CAmenoma+Kageuchi%7CAmos%27+Bow%7CAngelos%27+Heptades%7CApprentice%27s+Notes%7CAqua+Simulacra%7CAquila+Favonia%7CAsh-Graven+Drinking+Horn%7CAstral+Vulture%27s+Crimson+Plumage%7CAthame+Artis%7CAzurelight%7CBallad+of+the+Boundless+Blue%7CBallad+of+the+Fjords%7CBeacon+of+the+Reed+Sea%7CBeginner%27s+Protector%7CBeyond+the+Chrysalis%7CBlack+Tassel%7CBlackcliff+Agate%7CBlackcliff+Longsword%7CBlackcliff+Pole%7CBlackcliff+Slasher%7CBlackcliff+Warbow%7CBlackmarrow+Lantern%7CBlade+of+Atonement%7CBloodsoaked+Ruins%7CBloodtainted+Greatsword%7CBreezeborne+Refrain%7CCalamity+Queller%7CCalamity+of+Eshu%7CCashflow+Supervision&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:09.425577+00:00",
+    "sha256": "bb76594e610aaf4f5068df403847f2ad1f5e3c2c784a63b4fec40b132879a845"
+  },
+  "entity-revisions-02.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=Chain+Breaker%7CCinnabar+Spindle%7CClash+of+Kings%7CCloudforged%7CCompound+Bow%7CCool+Steel%7CCovenant+of+Frost+and+Snow%7CCrane%27s+Echoing+Call%7CCrescent+Pike%7CCrimson+Moon%27s+Semblance%7CDark+Iron+Sword%7CDawning+Frost%7CDeathmatch%7CDebate+Club%7CDialogues+of+the+Desert+Sages%7CDisaster+and+Remorse%7CDodoco+Tales%7CDragon%27s+Bane%7CDragonspine+Spear%7CDull+Blade%7CEarth+Shaker%7CEchoes+of+the+Heart%7CElegy+for+the+End%7CEmberwell%7CEmerald+Orb%7CEnd+of+the+Line%7CEngulfing+Lightning%7CEtherlight+Spindlelute%7CEverlasting+Moonglow%7CExaiphanes+Blade%7CEye+of+Perception%7CFading+Twilight%7CFang+of+the+Mountain+King%7CFavonius+Codex%7CFavonius+Greatsword%7CFavonius+Lance%7CFavonius+Sword%7CFavonius+Warbow%7CFerrous+Shadow%7CFestering+Desire%7CFillet+Blade%7CFinale+of+the+Deep%7CFlame-Forged+Insight%7CFleuve+Cendre+Ferryman%7CFlower-Wreathed+Feathers%7CFlowing+Purity%7CFlute+of+Ezpitzal%7CFootprint+of+the+Rainbow%7CForest+Regalia%7CForged+by+the+Golden+Melody&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:10.410831+00:00",
+    "sha256": "54c5d691938811ae4210677bf221af28ad4e12f1701376b9086a327faaf422de"
+  },
+  "entity-revisions-03.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=Fractured+Halo%7CFreedom-Sworn%7CFrostbearer%7CFrostbreath%7CFruit+of+Fulfillment%7CFruitful+Hook%7CGest+of+the+Mighty+Wolf%7CGolden+Frostbound+Oath%7CHakushin+Ring%7CHalberd%7CHamayumi%7CHaran+Geppaku+Futsu%7CHarbinger+of+Dawn%7CHeretic%27s+Molten+Blade%7CHunter%27s+Bow%7CHunter%27s+Path%7CHymn+of+the+Maelstrom%7CIbis+Piercer%7CIron+Point%7CIron+Sting%7CJade+Vista%7CJadefall%27s+Splendor%7CKagotsurube+Isshin%7CKagura%27s+Verity%7CKatsuragikiri+Nagamasa%7CKey+of+Khaj-Nisut%7CKing%27s+Squire%7CKitain+Cross+Spear%7CLight+of+Foliar+Incision%7CLightbearing+Moonshard%7CLion%27s+Roar%7CLithic+Blade%7CLithic+Spear%7CLost+Prayer+to+the+Sacred+Winds%7CLumidouce+Elegy%7CLuxurious+Sea-Lord%7CMagic+Guide%7CMailed+Flower%7CMakhaira+Aquamarine%7CMappa+Mare%7CMaster+Key%7CMemory+of+Dust%7CMessenger%7CMissive+Windspear%7CMistsplitter+Reforged%7CMitternachts+Waltz%7CMoonpiercer%7CMoonweaver%27s+Dawn%7CMountain-Bracing+Bolt%7CMouun%27s+Moon&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:11.020034+00:00",
+    "sha256": "4b5a69ddade462fd14399b43fa9a3e3f9c18cef028a259da2bb83c616145788c"
+  },
+  "entity-revisions-04.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=New+Bough%7CNightweaver%27s+Looking+Glass%7CNocturne%27s+Curtain+Call%7COathsworn+Eye%7COld+Merc%27s+Pal%7COtherworldly+Story%7CPeak+Patrol+Song%7CPocket+Grimoire%7CPolar+Star%7CPortable+Power+Saw%7CPredator%7CPrimordial+Jade+Cutter%7CPrimordial+Jade+Winged-Spear%7CProspector%27s+Drill%7CProspector%27s+Shovel%7CPrototype+Amber%7CPrototype+Archaic%7CPrototype+Crescent%7CPrototype+Rancour%7CPrototype+Starglitter%7CRainbow+Serpent%27s+Rain+Bow%7CRainslasher%7CRange+Gauge%7CRaven+Bow%7CRecurve+Bow%7CRedhorn+Stonethresher%7CReliquary+of+Truth%7CRightful+Reward%7CRing+of+Yaxche%7CRoyal+Bow%7CRoyal+Greatsword%7CRoyal+Grimoire%7CRoyal+Longsword%7CRoyal+Spear%7CRust%7CSacrificer%27s+Staff%7CSacrificial+Bow%7CSacrificial+Fragments%7CSacrificial+Greatsword%7CSacrificial+Jade%7CSacrificial+Sword%7CSapwood+Blade%7CScion+of+the+Blazing+Sun%7CSeasoned+Hunter%27s+Bow%7CSequence+of+Solitude%7CSerenity%27s+Call%7CSerpent+Spine%7CSharpshooter%27s+Oath%7CSilver+Light%7CSilver+Sword&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:11.629187+00:00",
+    "sha256": "b1e7b2e76bca7a6b3e6229425c47abb1409f45b1d8ba90eaa3037c8ee62674d1"
+  },
+  "entity-revisions-05.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=Silvershower+Heartstrings%7CSkyrider+Greatsword%7CSkyrider+Sword%7CSkyward+Atlas%7CSkyward+Blade%7CSkyward+Harp%7CSkyward+Pride%7CSkyward+Spine%7CSlingshot%7CSnare+Hook%7CSnow-Tombed+Starsilver%7CSolar+Pearl%7CSong+of+Broken+Pines%7CSong+of+Stillness%7CSong+of+the+Vigil%7CSplendor+of+Tranquil+Waters%7CStaff+of+Homa%7CStaff+of+the+Scarlet+Sands%7CStarcaller%27s+Watch%7CSturdy+Bone%7CSummit+Shaper%7CSunny+Morning+Sleep-In%7CSurf%27s+Up%7CSword+of+Descension%7CSword+of+Narzissenkreuz%7CSymphonist+of+Scents%7CTalking+Stick%7CTamayuratei+no+Ohanashi%7CThe+Alley+Flash%7CThe+Bell%7CThe+Black+Sword%7CThe+Daybreak+Chronicles%7CThe+Dockhand%27s+Assistant%7CThe+First+Great+Magic%7CThe+Flute%7CThe+Stringless%7CThe+Unforged%7CThe+Viridescent+Hunt%7CThe+Widsith%7CThrilling+Tales+of+Dragon+Slayers%7CThundering+Pulse%7CTidal+Shadow%7CTome+of+the+Eternal+Flow%7CToukabou+Shigure%7CTraveler%27s+Handy+Sword%7CTulaytullah%27s+Remembrance%7CTwin+Nephrite%7CUraku+Misugiri%7CVerdict%7CVivid+Notions&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:12.594663+00:00",
+    "sha256": "35026ad331b81b5999cd2914fd749c032e6d9e5f7bbe416c0957bf2259024e46"
+  },
+  "entity-revisions-06.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=Vortex+Vanquisher%7CWandering+Evenstar%7CWaster+Greatsword%7CWavebreaker%27s+Fin%7CWaveriding+Whirl%7CWhite+Iron+Greatsword%7CWhite+Tassel%7CWhiteblind%7CWhitelake+Frostfeather%7CWindblume+Ode%7CWine+and+Song%7CWinter%27s+Heavy+Heart%7CWolf%27s+Gravestone%7CWolf-Fang%7CXiphos%27+Moonlight%7CAino%7CAlbedo%7CAlhaitham%7CAloy%7CAlyosha%7CAmber%7CArataki+Itto%7CArlecchino%7CBaizhu%7CBarbara%7CBeidou%7CBennett%7CCandace%7CCharlotte%7CChasca%7CChevreuse%7CChiori%7CChongyun%7CCitlali%7CClorinde%7CCollei%7CColumbina%7CCyno%7CDahlia%7CDehya%7CDiluc%7CDiona%7CDori%7CDurin%7CEmilie%7CEscoffier%7CEula%7CFaruzan%7CFischl%7CFlins&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:13.184467+00:00",
+    "sha256": "1163c0b928b6423c93dfed994700d6d6e03f1a4febe7022f753a10fba040a4ff"
+  },
+  "entity-revisions-07.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=Freminet%7CFurina%7CGaming%7CGanyu%7CGorou%7CHu+Tao%7CIansan%7CIfa%7CIlluga%7CIneffa%7CJahoda%7CJean%7CKachina%7CKaedehara+Kazuha%7CKaeya%7CKamisato+Ayaka%7CKamisato+Ayato%7CKaveh%7CKeqing%7CKinich%7CKirara%7CKlee%7CKujou+Sara%7CKuki+Shinobu%7CLan+Yan%7CLauma%7CLayla%7CLinnea%7CLisa%7CLohen%7CLynette%7CLyney%7CMavuika%7CMika%7CMona%7CMualani%7CNahida%7CNavia%7CNefer%7CNeuvillette%7CNicole%7CNilou%7CNingguang%7CNoelle%7COdette%7COroron%7CPrune%7CQiqi%7CRaiden+Shogun%7CRazor&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:14.623288+00:00",
+    "sha256": "f05d5f117dd86a69849f59bb3de8e8e5ee118c88fa7beeabbc797fd7d4bfec55"
+  },
+  "entity-revisions-08.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=Rosaria%7CSandrone%7CSangonomiya+Kokomi%7CSayu%7CSethos%7CShenhe%7CShikanoin+Heizou%7CSigewinne%7CSkirk%7CSucrose%7CTartaglia%7CThoma%7CTighnari%7CTraveler%7CVaresa%7CVarka%7CVenti%7CVesna%7CVodyanitsa%7CWanderer%7CWriothesley%7CXiangling%7CXianyun%7CXiao%7CXilonen%7CXingqiu%7CXinyan%7CYae+Miko%7CYanfei%7CYaoyao%7CYelan%7CYoimiya%7CYumemizuki+Mizuki%7CYun+Jin%7CZhongli%7CZibai&prop=revisions&rvprop=ids%7Ctimestamp&redirects=1",
+    "retrievedAt": "2026-11-03T10:02:15.291984+00:00",
+    "sha256": "a555ca579211629152c9f86a58646b33cb8c634f27db9ac6c01fd60deb6121b5"
+  },
+  "slot-icons.json": {
+    "url": "https://genshin-impact.fandom.com/api.php?format=json&action=query&titles=File%3AIcon_Circlet_of_Logos.png%7CFile%3AIcon_Sands_of_Eon.png%7CFile%3AIcon_Goblet_of_Eonothem.png&prop=imageinfo&iiprop=url%7Ctimestamp",
+    "retrievedAt": "2026-11-03T09:56:15.226987+00:00",
+    "sha256": "2d2ba7685362f0094e0a0ee24718e5144cde3f85343d0fde47e58afc5b9c1a60"
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "383745": {
+        "pageid": 383745,
+        "ns": 0,
+        "title": "Aino",
+        "revisions": [
+          {
+            "revid": 2194900,
+            "parentid": 2189756,
+            "timestamp": "2026-10-12T08:35:20Z"
+          }
+        ]
+      },
+      "15003": {
+        "pageid": 15003,
+        "ns": 0,
+        "title": "Albedo",
+        "revisions": [
+          {
+            "revid": 2170032,
+            "parentid": 2170016,
+            "timestamp": "2026-09-08T19:46:07Z"
+          }
+        ]
+      },
+      "151669": {
+        "pageid": 151669,
+        "ns": 0,
+        "title": "Alhaitham",
+        "revisions": [
+          {
+            "revid": 2117202,
+            "parentid": 2117196,
+            "timestamp": "2026-06-29T07:34:38Z"
+          }
+        ]
+      },
+      "67688": {
+        "pageid": 67688,
+        "ns": 0,
+        "title": "Aloy",
+        "revisions": [
+          {
+            "revid": 1965865,
+            "parentid": 1861435,
+            "timestamp": "2026-01-11T21:54:20Z"
+          }
+        ]
+      },
+      "467681": {
+        "pageid": 467681,
+        "ns": 0,
+        "title": "Alyosha",
+        "revisions": [
+          {
+            "revid": 2196406,
+            "parentid": 2196404,
+            "timestamp": "2026-10-18T22:55:38Z"
+          }
+        ]
+      },
+      "132": {
+        "pageid": 132,
+        "ns": 0,
+        "title": "Amber",
+        "revisions": [
+          {
+            "revid": 2123789,
+            "parentid": 2123778,
+            "timestamp": "2026-07-04T06:05:52Z"
+          }
+        ]
+      },
+      "68837": {
+        "pageid": 68837,
+        "ns": 0,
+        "title": "Arataki Itto",
+        "revisions": [
+          {
+            "revid": 2141718,
+            "parentid": 1965873,
+            "timestamp": "2026-08-10T19:06:35Z"
+          }
+        ]
+      },
+      "117187": {
+        "pageid": 117187,
+        "ns": 0,
+        "title": "Arlecchino",
+        "revisions": [
+          {
+            "revid": 2189882,
+            "parentid": 2139785,
+            "timestamp": "2026-10-02T15:19:44Z"
+          }
+        ]
+      },
+      "1810": {
+        "pageid": 1810,
+        "ns": 0,
+        "title": "Baizhu",
+        "revisions": [
+          {
+            "revid": 2191884,
+            "parentid": 2191878,
+            "timestamp": "2026-10-04T03:49:57Z"
+          }
+        ]
+      },
+      "155": {
+        "pageid": 155,
+        "ns": 0,
+        "title": "Barbara",
+        "revisions": [
+          {
+            "revid": 1965470,
+            "parentid": 1867252,
+            "timestamp": "2026-01-11T21:29:41Z"
+          }
+        ]
+      },
+      "239": {
+        "pageid": 239,
+        "ns": 0,
+        "title": "Beidou",
+        "revisions": [
+          {
+            "revid": 2053110,
+            "parentid": 1965480,
+            "timestamp": "2026-02-22T00:50:34Z"
+          }
+        ]
+      },
+      "280": {
+        "pageid": 280,
+        "ns": 0,
+        "title": "Bennett",
+        "revisions": [
+          {
+            "revid": 2113437,
+            "parentid": 2113436,
+            "timestamp": "2026-06-18T00:49:45Z"
+          }
+        ]
+      },
+      "155051": {
+        "pageid": 155051,
+        "ns": 0,
+        "title": "Candace",
+        "revisions": [
+          {
+            "revid": 2062017,
+            "parentid": 2054243,
+            "timestamp": "2026-03-07T02:28:41Z"
+          }
+        ]
+      },
+      "228387": {
+        "pageid": 228387,
+        "ns": 0,
+        "title": "Charlotte",
+        "revisions": [
+          {
+            "revid": 2189733,
+            "parentid": 2061580,
+            "timestamp": "2026-10-02T01:56:54Z"
+          }
+        ]
+      },
+      "316435": {
+        "pageid": 316435,
+        "ns": 0,
+        "title": "Chasca",
+        "revisions": [
+          {
+            "revid": 2074262,
+            "parentid": 1861541,
+            "timestamp": "2026-04-09T08:33:09Z"
+          }
+        ]
+      },
+      "246332": {
+        "pageid": 246332,
+        "ns": 0,
+        "title": "Chevreuse",
+        "revisions": [
+          {
+            "revid": 1966372,
+            "parentid": 1861550,
+            "timestamp": "2026-01-11T22:21:06Z"
+          }
+        ]
+      },
+      "229042": {
+        "pageid": 229042,
+        "ns": 0,
+        "title": "Chiori",
+        "revisions": [
+          {
+            "revid": 2191885,
+            "parentid": 2191879,
+            "timestamp": "2026-10-04T03:50:03Z"
+          }
+        ]
+      },
+      "512": {
+        "pageid": 512,
+        "ns": 0,
+        "title": "Chongyun",
+        "revisions": [
+          {
+            "revid": 2185826,
+            "parentid": 2053111,
+            "timestamp": "2026-09-27T01:10:20Z"
+          }
+        ]
+      },
+      "316439": {
+        "pageid": 316439,
+        "ns": 0,
+        "title": "Citlali",
+        "revisions": [
+          {
+            "revid": 2113525,
+            "parentid": 2061602,
+            "timestamp": "2026-06-18T09:19:43Z"
+          }
+        ]
+      },
+      "236145": {
+        "pageid": 236145,
+        "ns": 0,
+        "title": "Clorinde",
+        "revisions": [
+          {
+            "revid": 2191886,
+            "parentid": 2191880,
+            "timestamp": "2026-10-04T03:50:11Z"
+          }
+        ]
+      },
+      "444": {
+        "pageid": 444,
+        "ns": 0,
+        "title": "Collei",
+        "revisions": [
+          {
+            "revid": 2189747,
+            "parentid": 2178484,
+            "timestamp": "2026-10-02T02:35:52Z"
+          }
+        ]
+      },
+      "144376": {
+        "pageid": 144376,
+        "ns": 0,
+        "title": "Columbina",
+        "revisions": [
+          {
+            "revid": 2194899,
+            "parentid": 2188660,
+            "timestamp": "2026-10-12T08:34:53Z"
+          }
+        ]
+      },
+      "3311": {
+        "pageid": 3311,
+        "ns": 0,
+        "title": "Cyno",
+        "revisions": [
+          {
+            "revid": 2114109,
+            "parentid": 2093180,
+            "timestamp": "2026-06-21T04:57:31Z"
+          }
+        ]
+      },
+      "263806": {
+        "pageid": 263806,
+        "ns": 0,
+        "title": "Dahlia",
+        "revisions": [
+          {
+            "revid": 2194901,
+            "parentid": 1863630,
+            "timestamp": "2026-10-12T08:36:00Z"
+          }
+        ]
+      },
+      "151676": {
+        "pageid": 151676,
+        "ns": 0,
+        "title": "Dehya",
+        "revisions": [
+          {
+            "revid": 2189743,
+            "parentid": 1966062,
+            "timestamp": "2026-10-02T02:24:51Z"
+          }
+        ]
+      },
+      "151": {
+        "pageid": 151,
+        "ns": 0,
+        "title": "Diluc",
+        "revisions": [
+          {
+            "revid": 2189736,
+            "parentid": 2188636,
+            "timestamp": "2026-10-02T02:03:40Z"
+          }
+        ]
+      },
+      "7121": {
+        "pageid": 7121,
+        "ns": 0,
+        "title": "Diona",
+        "revisions": [
+          {
+            "revid": 2189753,
+            "parentid": 2101694,
+            "timestamp": "2026-10-02T02:47:43Z"
+          }
+        ]
+      },
+      "144336": {
+        "pageid": 144336,
+        "ns": 0,
+        "title": "Dori",
+        "revisions": [
+          {
+            "revid": 1907200,
+            "parentid": 1867232,
+            "timestamp": "2025-12-21T02:47:29Z"
+          }
+        ]
+      },
+      "413614": {
+        "pageid": 413614,
+        "ns": 0,
+        "title": "Durin",
+        "revisions": [
+          {
+            "revid": 2200158,
+            "parentid": 2200157,
+            "timestamp": "2026-10-31T12:41:57Z"
+          }
+        ]
+      },
+      "244769": {
+        "pageid": 244769,
+        "ns": 0,
+        "title": "Emilie",
+        "revisions": [
+          {
+            "revid": 1966368,
+            "parentid": 1903555,
+            "timestamp": "2026-01-11T22:20:52Z"
+          }
+        ]
+      },
+      "366780": {
+        "pageid": 366780,
+        "ns": 0,
+        "title": "Escoffier",
+        "revisions": [
+          {
+            "revid": 2049752,
+            "parentid": 2049747,
+            "timestamp": "2026-02-10T02:16:57Z"
+          }
+        ]
+      },
+      "45761": {
+        "pageid": 45761,
+        "ns": 0,
+        "title": "Eula",
+        "revisions": [
+          {
+            "revid": 1965758,
+            "parentid": 1901369,
+            "timestamp": "2026-01-11T21:48:05Z"
+          }
+        ]
+      },
+      "175366": {
+        "pageid": 175366,
+        "ns": 0,
+        "title": "Faruzan",
+        "revisions": [
+          {
+            "revid": 2111666,
+            "parentid": 2102472,
+            "timestamp": "2026-06-13T19:55:28Z"
+          }
+        ]
+      },
+      "230": {
+        "pageid": 230,
+        "ns": 0,
+        "title": "Fischl",
+        "revisions": [
+          {
+            "revid": 1965479,
+            "parentid": 1902119,
+            "timestamp": "2026-01-11T21:30:52Z"
+          }
+        ]
+      },
+      "384166": {
+        "pageid": 384166,
+        "ns": 0,
+        "title": "Flins",
+        "revisions": [
+          {
+            "revid": 2195852,
+            "parentid": 2194904,
+            "timestamp": "2026-10-16T03:36:40Z"
+          }
+        ]
+      },
+      "17654": {
+        "pageid": 17654,
+        "ns": 0,
+        "title": "Vortex Vanquisher",
+        "revisions": [
+          {
+            "revid": 2089079,
+            "parentid": 2088565,
+            "timestamp": "2026-05-09T20:37:53Z"
+          }
+        ]
+      },
+      "167250": {
+        "pageid": 167250,
+        "ns": 0,
+        "title": "Wandering Evenstar",
+        "revisions": [
+          {
+            "revid": 2050426,
+            "parentid": 1966130,
+            "timestamp": "2026-02-13T08:47:55Z"
+          }
+        ]
+      },
+      "731": {
+        "pageid": 731,
+        "ns": 0,
+        "title": "Waster Greatsword",
+        "revisions": [
+          {
+            "revid": 1863764,
+            "parentid": 1745980,
+            "timestamp": "2025-10-15T23:07:30Z"
+          }
+        ]
+      },
+      "95710": {
+        "pageid": 95710,
+        "ns": 0,
+        "title": "Wavebreaker's Fin",
+        "revisions": [
+          {
+            "revid": 2199847,
+            "parentid": 1965907,
+            "timestamp": "2026-10-29T18:27:10Z"
+          }
+        ]
+      },
+      "344163": {
+        "pageid": 344163,
+        "ns": 0,
+        "title": "Waveriding Whirl",
+        "revisions": [
+          {
+            "revid": 2053899,
+            "parentid": 2042153,
+            "timestamp": "2026-02-23T13:22:20Z"
+          }
+        ]
+      },
+      "1238": {
+        "pageid": 1238,
+        "ns": 0,
+        "title": "White Iron Greatsword",
+        "revisions": [
+          {
+            "revid": 2168367,
+            "parentid": 2064338,
+            "timestamp": "2026-09-03T09:52:55Z"
+          }
+        ]
+      },
+      "1240": {
+        "pageid": 1240,
+        "ns": 0,
+        "title": "White Tassel",
+        "revisions": [
+          {
+            "revid": 1784763,
+            "parentid": 1740897,
+            "timestamp": "2025-07-27T06:22:43Z"
+          }
+        ]
+      },
+      "755": {
+        "pageid": 755,
+        "ns": 0,
+        "title": "Whiteblind",
+        "revisions": [
+          {
+            "revid": 2168595,
+            "parentid": 2064950,
+            "timestamp": "2026-09-04T06:48:33Z"
+          }
+        ]
+      },
+      "477224": {
+        "pageid": 477224,
+        "ns": 0,
+        "title": "Whitelake Frostfeather",
+        "revisions": [
+          {
+            "revid": 2188810,
+            "parentid": 2182561,
+            "timestamp": "2026-09-30T18:59:54Z"
+          }
+        ]
+      },
+      "33164": {
+        "pageid": 33164,
+        "ns": 0,
+        "title": "Windblume Ode",
+        "revisions": [
+          {
+            "revid": 2114711,
+            "parentid": 1806373,
+            "timestamp": "2026-06-24T14:58:56Z"
+          }
+        ]
+      },
+      "1480": {
+        "pageid": 1480,
+        "ns": 0,
+        "title": "Wine and Song",
+        "revisions": [
+          {
+            "revid": 1935309,
+            "parentid": 1806431,
+            "timestamp": "2026-01-10T06:45:04Z"
+          }
+        ]
+      },
+      "490863": {
+        "pageid": 490863,
+        "ns": 0,
+        "title": "Winter's Heavy Heart",
+        "revisions": [
+          {
+            "revid": 2190067,
+            "parentid": 2189602,
+            "timestamp": "2026-10-03T04:26:37Z"
+          }
+        ]
+      },
+      "759": {
+        "pageid": 759,
+        "ns": 0,
+        "title": "Wolf's Gravestone",
+        "revisions": [
+          {
+            "revid": 2130114,
+            "parentid": 2055779,
+            "timestamp": "2026-07-15T22:14:19Z"
+          }
+        ]
+      },
+      "241371": {
+        "pageid": 241371,
+        "ns": 0,
+        "title": "Wolf-Fang",
+        "revisions": [
+          {
+            "revid": 2125354,
+            "parentid": 2125352,
+            "timestamp": "2026-07-06T22:02:39Z"
+          }
+        ]
+      },
+      "167243": {
+        "pageid": 167243,
+        "ns": 0,
+        "title": "Xiphos' Moonlight",
+        "revisions": [
+          {
+            "revid": 2065019,
+            "parentid": 1966128,
+            "timestamp": "2026-03-13T00:00:46Z"
+          }
+        ]
+      }
+    }
+  }
+}
