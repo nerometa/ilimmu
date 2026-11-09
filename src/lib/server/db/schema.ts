@@ -1,6 +1,6 @@
 import { sql } from 'drizzle-orm';
 import {
-  pgTable, text, timestamp, boolean, integer, bigint, uuid, check, uniqueIndex
+  pgTable, text, timestamp, boolean, integer, bigint, uuid, check, uniqueIndex, jsonb
 } from 'drizzle-orm/pg-core';
 
 const utc = (name: string) => timestamp(name, { withTimezone: true });
@@ -89,6 +89,7 @@ export const characters = pgTable('characters', {
   profileId: uuid('profile_id').notNull().references(() => profile.id),
   gameId: integer('game_id').notNull(),
   name: text('name').notNull(),
+  owned: boolean('owned').notNull().default(true),
   level: integer('level').notNull(),
   ascension: integer('ascension').notNull(),
   talentAttack: integer('talent_attack').notNull(),
@@ -166,3 +167,11 @@ export const conflicts = pgTable('inventory_conflicts', {
   revision: integer('revision').notNull().default(0),
   createdAt: utc('created_at').notNull().defaultNow()
 }, (t) => [check('resolution_valid', sql`${t.resolution} IS NULL OR ${t.resolution} IN ('keep-manual', 'accept-source')`)]);
+
+export const characterBuilds = pgTable('character_builds', {
+  profileId: uuid('profile_id').notNull().references(() => profile.id),
+  gameId: integer('game_id').notNull(),
+  data: jsonb('data').$type<import('../../game/builds').Build>().notNull(),
+  revision: integer('revision').notNull().default(0),
+  updatedAt: utc('updated_at').notNull().defaultNow()
+}, t => [uniqueIndex('one_build_per_character').on(t.profileId, t.gameId), check('character_builds_revision_check', sql`${t.revision} >= 0`)]);

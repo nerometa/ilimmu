@@ -1,0 +1,11 @@
+import type { Meta, StoryObj } from '@storybook/sveltekit';
+import EquipmentTile from './EquipmentTile.svelte';
+import { catalog } from '#lib/game/builds.ts';
+const meta={title:'Components/Equipment tile',component:EquipmentTile,args:{kind:'weapons',item:catalog.weapons.find(w=>w.name==='Hymn of the Maelstrom')}} satisfies Meta<typeof EquipmentTile>;
+export default meta;
+type Story=StoryObj<typeof meta>;
+export const FiveStarWeapon:Story={};
+export const FourStarWeapon:Story={args:{item:catalog.weapons.find(w=>w.name==='Fleuve Cendre Ferryman')}};
+export const ThreeStarWeapon:Story={args:{item:catalog.weapons.find(w=>w.name==='Thrilling Tales of Dragon Slayers')}};
+export const Artifact:Story={args:{kind:'artifacts',item:catalog.artifacts.find(a=>a.name==='Tenacity of the Millelith')}};
+export const Empty:Story={args:{item:undefined}};

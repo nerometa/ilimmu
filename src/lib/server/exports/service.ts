@@ -2,7 +2,7 @@ import { eq } from 'drizzle-orm';
 import { exportSchema } from '../../contracts';
 import { db } from '../db';
 import {
-  characters, conflicts, goals, inventory, observations, profile, weapons
+  characters, characterBuilds, conflicts, goals, inventory, observations, profile, weapons
 } from '../db/schema';
 import { present } from '../provenance/safe-write';
 
@@ -19,6 +19,7 @@ export async function personalData(profileId: string, generateExport = false) {
         lastExportGeneratedAt: generateExport ? generatedAt : row.lastExportGeneratedAt
       },
       characters: await tx.select().from(characters).where(eq(characters.profileId, profileId)),
+      builds: (await tx.select().from(characterBuilds).where(eq(characterBuilds.profileId, profileId))).map(({data,...meta})=>({...data,...meta})),
       weapons: await tx.select().from(weapons).where(eq(weapons.profileId, profileId)),
       inventory: await tx.select().from(inventory).where(eq(inventory.profileId, profileId)),
       goals: await tx.select().from(goals).where(eq(goals.profileId, profileId)),

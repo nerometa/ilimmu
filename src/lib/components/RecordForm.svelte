@@ -53,7 +53,7 @@
     if (!(form instanceof HTMLFormElement)) return;
     pending = true; error = ''; issues = {}; success = '';
     const data = new FormData(form);
-    const input: Record<string, unknown> = { name: data.get('name'), gameId: Number(data.get('gameId')) };
+    const input: Record<string, unknown> = { ...(kind === 'characters' ? { owned: record && 'owned' in record ? record.owned : true } : {}), name: data.get('name'), gameId: Number(data.get('gameId')) };
     for (const field of fields) input[field.name] = Number(data.get(field.name));
     const schema = kind === 'characters' ? characterInput : kind === 'weapons' ? weaponInput : inventoryInput;
     const parsed = schema.safeParse(input);

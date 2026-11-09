@@ -5,6 +5,7 @@
   import Goals from '../src/routes/(app)/goals/+page.svelte';
   import Conflicts from '../src/routes/(app)/conflicts/+page.svelte';
   import Export from '../src/routes/(app)/export/+page.svelte';
+  import CharactersPage from '../src/lib/components/CharactersPage.svelte';
   import RecordsPage from '../src/lib/components/RecordsPage.svelte';
   import type { ExportData } from '../src/lib/contracts.ts';
   import { sampleState } from './fixtures.ts';
@@ -21,6 +22,7 @@
     {:else if screen === 'goals'}<Goals data={{ state: account }} />
     {:else if screen === 'conflicts'}<Conflicts data={{ state: account }} />
     {:else if screen === 'export'}<Export data={{ state: account }} />
+    {:else if screen==='characters'}<CharactersPage state={account} />
     {:else}<RecordsPage state={account} kind={screen} />{/if}
   </Shell>
 {/if}

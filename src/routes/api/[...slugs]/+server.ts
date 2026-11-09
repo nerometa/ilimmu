@@ -1,4 +1,7 @@
 import { Elysia, t } from 'elysia';
+import { z } from 'zod';
+import { buildEdit } from '#lib/game/builds.ts';
+import { setOwnership, saveBuild } from '#lib/server/records/roster.ts';
 import { sql } from 'drizzle-orm';
 import { db } from '#lib/server/db/index.ts';
 import { auth } from '#lib/server/account/auth.ts';
@@ -65,6 +68,8 @@ const app = new Elysia({ prefix: '/api' })
   .post('/characters', async ({ request, body }) => addCharacter(await profileId(request), body), { body: characterInput })
   .put('/characters/:id', async ({ request, params, body }) => saveCharacter(await profileId(request), params.id, body),
     { params: t.Object({ id: t.String({ format: 'uuid' }) }), body: characterEdit })
+  .put('/roster/:gameId/ownership', async ({request,params,body}) => setOwnership(await profileId(request), Number(params.gameId), body.owned, body.revision), {body:z.strictObject({owned:z.boolean(),revision:z.number().int().nonnegative().nullable()}),params:t.Object({gameId:t.Numeric()})})
+  .put('/roster/:gameId/build', async ({request,params,body}) => { const {revision,...data}=body; return saveBuild(await profileId(request),Number(params.gameId),data,revision); }, {body:buildEdit,params:t.Object({gameId:t.Numeric()})})
   .get('/weapons', async ({ request }) => (await personalData(await profileId(request))).weapons)
   .post('/weapons', async ({ request, body }) => addWeapon(await profileId(request), body), { body: weaponInput })
   .put('/weapons/:id', async ({ request, params, body }) => saveWeapon(await profileId(request), params.id, body),

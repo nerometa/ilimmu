@@ -129,3 +129,10 @@ dd { margin: 0; font-weight: 600; }
   .portrait { width: 64px; height: 80px; }
 }
 @media(prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0; }
+::selection { background:var(--primary); color:var(--canvas); }
+input, textarea { caret-color:var(--primary); }
+* { scrollbar-width:thin; scrollbar-color:var(--border) var(--canvas); }
+
+:root { --rarity-5: #936131; --rarity-4: #705a91; --rarity-3: #446c88; --rarity-2: #4c755b; --rarity-1: #606776; }

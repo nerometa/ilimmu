@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { buildRecord } from './game/builds';
 
 const name = z.string().trim().min(1).max(100);
 const gameId = z.number().int().positive().max(2147483647);
@@ -14,7 +15,7 @@ export const profileInput = z.strictObject({
   revision
 });
 export const characterInput = z.strictObject({
-  gameId, name, level, ascension,
+  gameId, name, level, ascension, owned: z.boolean().default(true),
   talentAttack: talent, talentSkill: talent, talentBurst: talent
 });
 export const weaponInput = z.strictObject({
@@ -73,6 +74,7 @@ export const exportSchema = z.strictObject({
     lastExportGeneratedAt: z.iso.datetime().nullable()
   }),
   characters: z.array(characterRecord),
+  builds: z.array(buildRecord).default([]),
   weapons: z.array(weaponRecord),
   inventory: z.array(inventoryRecord),
   goals: z.array(goalRecord),
@@ -88,7 +90,7 @@ export const exportSchema = z.strictObject({
 });
 
 export type ProfileInput = z.infer<typeof profileInput>;
-export type CharacterInput = z.infer<typeof characterInput>;
+export type CharacterInput = z.input<typeof characterInput>;
 export type WeaponInput = z.infer<typeof weaponInput>;
 export type InventoryInput = z.infer<typeof inventoryInput>;
 export type GoalInput = z.infer<typeof goalInput>;

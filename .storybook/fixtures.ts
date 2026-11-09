@@ -12,16 +12,17 @@ export const sampleState: ExportData = {
   characters: [{
     id: '10000000-0000-4000-8000-000000000002',
     profileId: '10000000-0000-4000-8000-000000000001', gameId: 10000042,
-    name: 'Keqing', level: 70, ascension: 4, talentAttack: 6, talentSkill: 6,
+    owned:true, name: 'Keqing', level: 70, ascension: 4, talentAttack: 6, talentSkill: 6,
     talentBurst: 6, revision: 2, manualOverride: true, source: 'manual',
     updatedAt: '2026-10-22T12:00:00.000Z'
   }, {
     id: '10000000-0000-4000-8000-000000000003',
     profileId: '10000000-0000-4000-8000-000000000001', gameId: 10000031,
-    name: 'Fischl', level: 60, ascension: 3, talentAttack: 2, talentSkill: 6,
+    owned:true, name: 'Fischl', level: 60, ascension: 3, talentAttack: 2, talentSkill: 6,
     talentBurst: 4, revision: 0, manualOverride: false, source: 'manual',
     updatedAt: '2026-10-22T12:00:00.000Z'
   }],
+  builds: [],
   weapons: [{
     id: '10000000-0000-4000-8000-000000000004',
     profileId: '10000000-0000-4000-8000-000000000001', gameId: 11401,

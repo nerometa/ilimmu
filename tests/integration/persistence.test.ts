@@ -216,10 +216,40 @@ describe('real PostgreSQL persistence and safe updates', () => {
     expect(output.version).toBe(1);
     expect(output.profile.lastExportGeneratedAt).toBe(output.generatedAt);
     expect(Object.keys(output).sort()).toEqual([
-      'characters', 'conflicts', 'format', 'generatedAt', 'goals', 'inventory',
+      'builds', 'characters', 'conflicts', 'format', 'generatedAt', 'goals', 'inventory',
       'observations', 'profile', 'version', 'weapons'
     ]);
     expect(JSON.stringify(output)).not.toMatch(/integration@example\.test|password|token|secret|ownerId/);
     expect((await services.ownerProfile('integration-owner')).lastExportGeneratedAt?.toISOString()).toBe(output.generatedAt);
   });
+});
+
+
+it('preserves progression and builds across ownership changes and rejects stale writes', async () => {
+  const roster = await import('../../src/lib/server/records/roster');
+  const {emptyBuild}=await import('../../src/lib/game/builds');
+  const character=await roster.setOwnership(profileId,10000089,true,null);
+  const build=await roster.saveBuild(profileId,10000089,{...emptyBuild,weaponId:11426,artifacts:{mode:'2pc+2pc',effect1:'HP +20%',effect2:'HP +20%'}},null);
+  await expect(roster.saveBuild(profileId,10000089,emptyBuild,null)).rejects.toMatchObject({code:'STALE_REVISION'});
+  await expect(roster.saveBuild(profileId,10000089,{...emptyBuild,weaponId:14401},build.revision)).rejects.toMatchObject({code:'INVALID_SUBJECT'});
+  const unowned=await roster.setOwnership(profileId,10000089,false,character.revision);
+  await expect(roster.setOwnership(profileId,10000089,true,character.revision)).rejects.toMatchObject({code:'STALE_REVISION'});
+  const owned=await roster.setOwnership(profileId,10000089,true,unowned.revision);
+  expect(owned.id).toBe(character.id);
+  const state=await exporting.personalData(profileId);
+  expect(state.builds.find(b=>b.gameId===10000089)?.weaponId).toBe(11426);
+  expect(state.characters.find(c=>c.gameId===10000089)?.owned).toBe(true);
+});
+
+it('synchronizes legacy Traveler ownership without deleting either progression record',async()=>{
+  const roster=await import('../../src/lib/server/records/roster');
+  const base={level:30,ascension:1,talentAttack:2,talentSkill:2,talentBurst:2,owned:true};
+  await services.addCharacter(profileId,{...base,gameId:10000005,name:'Aether'});
+  const lumine=await services.addCharacter(profileId,{...base,level:40,gameId:10000007,name:'Lumine'});
+  await roster.setOwnership(profileId,10000007,false,lumine.revision);
+  const state=await exporting.personalData(profileId);
+  const travelers=state.characters.filter(c=>[10000005,10000007].includes(c.gameId));
+  expect(travelers).toHaveLength(2);
+  expect(travelers.every(c=>!c.owned)).toBe(true);
+  expect(travelers.map(c=>c.level).sort()).toEqual([30,40]);
 });

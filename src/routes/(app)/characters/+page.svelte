@@ -1,5 +1,5 @@
 <script lang="ts">
-  import RecordsPage from '#lib/components/RecordsPage.svelte';
+  import CharactersPage from '#lib/components/CharactersPage.svelte';
   let { data } = $props();
 </script>
-<RecordsPage state={data.state} kind="characters" />
+<CharactersPage state={data.state} />

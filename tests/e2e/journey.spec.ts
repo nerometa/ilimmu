@@ -62,15 +62,17 @@ test('owner records actuals, independent targets, both conflict decisions and a 
 
   await test.step('record owned character actual progression', async () => {
     await navigate('Characters');
-    await page.getByRole('button', { name: 'Add character', exact: true }).click();
-    const form = page.getByRole('form', { name: 'Add character', exact: true });
-    await form.getByLabel('Name', { exact: true }).fill(characterName);
-    await form.getByLabel('Game ID', { exact: true }).fill(String(gameId));
-    await form.getByLabel('Actual level', { exact: true }).fill('20');
-    await form.getByLabel('Actual ascension', { exact: true }).fill('0');
-    await form.getByRole('button', { name: 'Add actual record', exact: true }).click();
-    await expect(page.getByRole('heading', { name: characterName, exact: true })).toBeVisible();
-    await expect(page.getByText('Actual record saved.', { exact: true })).toBeVisible();
+    await page.getByRole('searchbox', { name: 'Search characters', exact: true }).fill(characterName);
+    await page.getByRole('switch', { name: `${characterName} owned`, exact:true }).check();
+    await expect(page.getByRole('switch', { name: `${characterName} owned`, exact:true })).toBeEnabled();
+    await page.getByRole('link', {name:`Open ${characterName} profile`,exact:true}).click();
+    const form=page.getByRole('form',{name:'Character progression',exact:true});
+    await form.getByLabel('Actual level',{exact:true}).fill('20');
+    await form.getByRole('button',{name:'Save progression',exact:true}).click();
+    await expect(page.getByText('Progression saved.',{exact:true})).toBeVisible();
+    await page.goto('/characters');
+    await page.getByRole('searchbox',{name:'Search characters',exact:true}).fill(characterName);
+    await expect(page.getByRole('article',{name:characterName,exact:true})).toContainText('Lv. 20');
     await page.screenshot({ path: info.outputPath('characters.png'), fullPage: true });
   });
 
@@ -121,8 +123,10 @@ test('owner records actuals, independent targets, both conflict decisions and a 
     await page.screenshot({ path: info.outputPath('goals.png'), fullPage: true });
     await navigate('Characters');
     const record = page.getByRole('article').filter({ has: page.getByRole('heading', { name: characterName, exact: true }) });
-    await expect(record).toContainText('20 / 90');
-    await expect(record).toContainText(`Ascension plan ${suffix}`);
+    await expect(record).toContainText('Lv. 20');
+    await record.getByRole('link',{name:`Open ${characterName} profile`}).click();
+    await page.getByRole('button',{name:'Progression targets',exact:true}).click();
+    await expect(page.getByText(`Ascension plan ${suffix} · Level 80`,{exact:true})).toBeVisible();
   });
 
   await test.step('resolve both staged observation decisions explicitly', async () => {

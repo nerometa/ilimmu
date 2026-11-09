@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "description": "Spacious build rows with inline equipment and main stats.",
+  "reference": "User-supplied GGArtifact screenshots",
+  "generated": true,
+  "content": "Illustrative game data; final implementation uses verified catalog assets.",
+  "scope": "Composition preview only. Preserve existing navigation and label main stats Sands, Goblet, Circlet.",
+  "approval": "User selected exec-5dc45d11-e72e-4337-8779-92c206a69e6a.png and explicitly requested a more compact, cleaner interpretation, portrait navigation, editable progression, 4pc or 2pc+2pc artifacts, and official slot icons.",
+  "authority": "Approved composition direction, with explicit layout refinements; not a pixel-identical reproduction."
+}
