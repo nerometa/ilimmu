@@ -50,7 +50,7 @@
 <a class="skip-link" href="#main-content">Skip to content</a>
 <div class="shell">
   <aside class="sidebar">
-    <a class="brand" href="/profile"><span class="eyebrow" style="display:block;font-size:12px;margin-bottom:8px">Your private account</span>Genshin<br />Companion</a>
+    <a class="brand" href="/profile">Ilimmu</a>
     <nav aria-label="Main navigation">{@render navigation()}</nav>
     <div class="sidebar-footer">
       <div class="element-spectrum" aria-hidden="true">
