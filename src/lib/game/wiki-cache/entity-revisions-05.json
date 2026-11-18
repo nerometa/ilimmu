@@ -176,9 +176,9 @@
         "title": "Song of the Vigil",
         "revisions": [
           {
-            "revid": 2189503,
-            "parentid": 2183866,
-            "timestamp": "2026-10-01T21:28:12Z"
+            "revid": 2209713,
+            "parentid": 2189503,
+            "timestamp": "2026-11-14T21:50:44Z"
           }
         ]
       },
@@ -227,6 +227,18 @@
             "revid": 2172158,
             "parentid": 2138886,
             "timestamp": "2026-09-10T21:26:19Z"
+          }
+        ]
+      },
+      "500478": {
+        "pageid": 500478,
+        "ns": 0,
+        "title": "Starsealed Edict",
+        "revisions": [
+          {
+            "revid": 2210897,
+            "parentid": 2210379,
+            "timestamp": "2026-11-16T20:23:52Z"
           }
         ]
       },
@@ -380,9 +392,9 @@
         "title": "The Daybreak Chronicles",
         "revisions": [
           {
-            "revid": 2189044,
-            "parentid": 2188855,
-            "timestamp": "2026-09-30T22:18:59Z"
+            "revid": 2209893,
+            "parentid": 2189044,
+            "timestamp": "2026-11-14T23:06:33Z"
           }
         ]
       },
@@ -587,18 +599,6 @@
             "revid": 2135437,
             "parentid": 2114701,
             "timestamp": "2026-07-24T19:05:01Z"
-          }
-        ]
-      },
-      "365304": {
-        "pageid": 365304,
-        "ns": 0,
-        "title": "Vivid Notions",
-        "revisions": [
-          {
-            "revid": 2154328,
-            "parentid": 2089070,
-            "timestamp": "2026-08-18T17:23:08Z"
           }
         ]
       }

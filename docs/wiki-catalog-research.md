@@ -70,7 +70,7 @@ Run the importer from the repository root:
 # Reproduce normalized output from the checked-in cache without network access.
 python3 scripts/sync-wiki-catalog.py
 
-# Refresh Wiki responses, identities, and revision metadata.
+# Refresh Wiki responses and revision metadata.
 python3 scripts/sync-wiki-catalog.py --refresh
 
 # Also cache any missing Wiki artwork and category icons.
@@ -79,15 +79,35 @@ python3 scripts/sync-wiki-catalog.py --refresh --download-art
 
 Normalized data is written to `src/lib/game/wiki-cache/normalized.json`, with
 integration copies at `/tmp/wiki-catalog.json`, `/tmp/wiki-weapons.json`, and
-`/tmp/wiki-characters.json`. The importer does not overwrite the active catalog
-or personal database. Its stable-ID registry joins Wiki names to existing game
-identities; Wiki page IDs are stored separately. Newly encountered identities
-require a reviewed stable-ID mapping rather than silent removal.
+`/tmp/wiki-characters.json`. The stable-ID registry joins Wiki names to game
+IDs. Wiki page IDs are stored separately.
 
 Each fetched response has a URL, retrieval timestamp, and SHA-256 digest in
 `wiki-cache/fetch-log.json`. Cache-only runs preserve retrieval timestamps, so
 rebuilding a snapshot cannot make old data appear newly retrieved. Images never
 control whether a data record exists.
+
+### Add new characters to the local preview
+
+The Characters page reads the active catalog at
+`src/lib/game/catalog.json`. PostgreSQL stores your ownership and progression.
+Run these steps from the repository root to update the preview roster.
+
+1. Fetch the latest Wiki lists with
+   `python3 scripts/sync-wiki-catalog.py --refresh`. If you already
+   have the refreshed cache, run `python3 scripts/sync-wiki-catalog.py`.
+2. If the sync reports new identities, verify their stable game IDs and add
+   each name and ID to the matching category in
+   `src/lib/game/wiki-cache/stable-ids.json`. Rerun the sync. Use
+   `--refresh` again if you need individual Wiki page revisions for the new
+   entries, since offline runs reuse cached revision batches.
+3. Review `src/lib/game/wiki-cache/normalized.json`, then run
+   `python3 scripts/sync-wiki-catalog.py --apply`. This updates the active
+   catalog for all categories. Add `--download-art` to fetch missing artwork.
+4. Start the local app with `bun run preview`, or reload it if it's already
+   running. Sign in at <http://localhost:4173>, open **Characters**, select
+   **All characters**, and search for each new name. New entries appear as
+   **Not owned** until you mark them owned.
 
 When adopting refreshed two-piece bonuses, map saved effect strings by stable
 artifact identity or explicit aliases. Wiki wording can differ from the old

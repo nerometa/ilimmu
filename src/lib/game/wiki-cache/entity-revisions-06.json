@@ -20,9 +20,9 @@
         "title": "Albedo",
         "revisions": [
           {
-            "revid": 2170032,
-            "parentid": 2170016,
-            "timestamp": "2026-09-08T19:46:07Z"
+            "revid": 2202829,
+            "parentid": 2170032,
+            "timestamp": "2026-11-06T19:30:10Z"
           }
         ]
       },
@@ -92,9 +92,9 @@
         "title": "Arlecchino",
         "revisions": [
           {
-            "revid": 2189882,
-            "parentid": 2139785,
-            "timestamp": "2026-10-02T15:19:44Z"
+            "revid": 2202052,
+            "parentid": 2201512,
+            "timestamp": "2026-11-05T07:17:20Z"
           }
         ]
       },
@@ -410,15 +410,15 @@
           }
         ]
       },
-      "384166": {
-        "pageid": 384166,
+      "365304": {
+        "pageid": 365304,
         "ns": 0,
-        "title": "Flins",
+        "title": "Vivid Notions",
         "revisions": [
           {
-            "revid": 2195852,
-            "parentid": 2194904,
-            "timestamp": "2026-10-16T03:36:40Z"
+            "revid": 2154328,
+            "parentid": 2089070,
+            "timestamp": "2026-08-18T17:23:08Z"
           }
         ]
       },
@@ -524,9 +524,9 @@
         "title": "Whitelake Frostfeather",
         "revisions": [
           {
-            "revid": 2188810,
-            "parentid": 2182561,
-            "timestamp": "2026-09-30T18:59:54Z"
+            "revid": 2209591,
+            "parentid": 2188810,
+            "timestamp": "2026-11-14T20:33:24Z"
           }
         ]
       },
@@ -560,9 +560,9 @@
         "title": "Winter's Heavy Heart",
         "revisions": [
           {
-            "revid": 2190067,
-            "parentid": 2189602,
-            "timestamp": "2026-10-03T04:26:37Z"
+            "revid": 2209531,
+            "parentid": 2190067,
+            "timestamp": "2026-11-14T19:42:48Z"
           }
         ]
       },

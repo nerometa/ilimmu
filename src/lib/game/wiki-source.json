@@ -1,66 +1,66 @@
 {
   "schemaVersion": 1,
   "authority": "Genshin Impact Wiki",
-  "retrievedAt": "2026-11-03T10:02:15.291984+00:00",
+  "retrievedAt": "2026-11-18T10:24:25.716755+00:00",
   "sources": {
     "artifact-sets": {
       "title": "Artifact/Sets",
       "pageId": 56860,
       "revisionId": 2085534,
       "url": "https://genshin-impact.fandom.com/wiki/Artifact/Sets",
-      "sha256": "b349ba0a03bd4521b76ee5a676abb573aa7dc694b3a635af5de72563b163214f"
+      "sha256": "39e11f249575e3ffa7ff82f4be9ccc4d34315455fbf730004d551307e3449166"
     },
     "characters": {
       "title": "Character",
       "pageId": 161,
-      "revisionId": 2193086,
+      "revisionId": 2203084,
       "url": "https://genshin-impact.fandom.com/wiki/Character",
-      "sha256": "e3085b6c1bd8bf6790c3e0ba181d7a63732d5417bb41840c3ac86f874f39889a"
+      "sha256": "954a1cbd7487d9f6957169b5f57ecc303784db6c13b7c8aa7d59409bcd0a7868"
     },
     "weapons": {
       "title": "Weapon/List",
       "pageId": 815,
       "revisionId": 1708166,
       "url": "https://genshin-impact.fandom.com/wiki/Weapon/List",
-      "sha256": "a788472ebb6cc0dab9af24b43d264b0dd8edc6e4f79a9ceced9528b5e589e4fc"
+      "sha256": "f4b9c02c31f3ad580d791ed456e694945db77eebab4764bf169d308173d0f0c1"
     },
     "sword": {
       "title": "Sword",
       "pageId": 710,
       "revisionId": 1774684,
       "url": "https://genshin-impact.fandom.com/wiki/Sword",
-      "sha256": "19d08c24d0f7158a9ff0299ad10b1d3ce7dd903ed50c0a5035034543fa7959de"
+      "sha256": "9d3be68c95a4dd66f94e5e6f6dbc4ef8d06b1d4cd64c6f0de2f6aba0a0929096"
     },
     "claymore": {
       "title": "Claymore",
       "pageId": 703,
       "revisionId": 2129296,
       "url": "https://genshin-impact.fandom.com/wiki/Claymore",
-      "sha256": "2c20feed8476f126a2aa38fd52291eef225a47d76b15cd9fae0b110f0262f079"
+      "sha256": "5fbc39db2518110e37894d242999a48931122a05fb891ebd3b72467a4164b814"
     },
     "polearm": {
       "title": "Polearm",
       "pageId": 705,
       "revisionId": 2195420,
       "url": "https://genshin-impact.fandom.com/wiki/Polearm",
-      "sha256": "f8999bbb49925007b199c288cd2fd776f470f39248896dfc32f50daa397793b7"
+      "sha256": "023bcef6b8ed13670c7084a4a557cf65f3ccafdbcffa7d1c1d8af55c5467bfc6"
     },
     "catalyst": {
       "title": "Catalyst",
       "pageId": 701,
       "revisionId": 1861006,
       "url": "https://genshin-impact.fandom.com/wiki/Catalyst",
-      "sha256": "d9a296ed2aafdb488a101e6e6dc506a3cb9acca6689e49e67a202a61587bd68f"
+      "sha256": "9151ba60648bc16c7e1c640b0bbde2dfebcd00b63bfb9139d05f8fe889ba5c1d"
     },
     "bow": {
       "title": "Bow",
       "pageId": 696,
       "revisionId": 1758926,
       "url": "https://genshin-impact.fandom.com/wiki/Bow",
-      "sha256": "5ba2df6bf483924ac9e6d8624bb472111d92173c38453556e51b04858d962f15"
+      "sha256": "3cf6785f29ac5588e38919e55d6eb8e661a62e01612881b71f52b3b929ac6ed6"
     }
   },
-  "entityRevisionCount": 436,
+  "entityRevisionCount": 439,
   "slotIcons": [
     {
       "file": "slot-circlet.png",
@@ -88,8 +88,8 @@
   },
   "counts": {
     "artifacts": 63,
-    "weapons": 252,
-    "characters": 121
+    "weapons": 253,
+    "characters": 123
   },
   "unmappedArtifacts": [
     "Initiate"

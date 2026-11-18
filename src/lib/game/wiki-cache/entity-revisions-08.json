@@ -2,6 +2,30 @@
   "batchcomplete": "",
   "query": {
     "pages": {
+      "16028": {
+        "pageid": 16028,
+        "ns": 0,
+        "title": "Raiden Shogun",
+        "revisions": [
+          {
+            "revid": 2115112,
+            "parentid": 2115023,
+            "timestamp": "2026-06-25T22:43:38Z"
+          }
+        ]
+      },
+      "176": {
+        "pageid": 176,
+        "ns": 0,
+        "title": "Razor",
+        "revisions": [
+          {
+            "revid": 1965473,
+            "parentid": 1902120,
+            "timestamp": "2026-01-11T21:30:10Z"
+          }
+        ]
+      },
       "15024": {
         "pageid": 15024,
         "ns": 0,
@@ -164,9 +188,21 @@
         "title": "Traveler",
         "revisions": [
           {
-            "revid": 2199581,
-            "parentid": 2169846,
-            "timestamp": "2026-10-28T01:21:12Z"
+            "revid": 2205931,
+            "parentid": 2205917,
+            "timestamp": "2026-11-07T21:13:33Z"
+          }
+        ]
+      },
+      "467684": {
+        "pageid": 467684,
+        "ns": 0,
+        "title": "Valeriy",
+        "revisions": [
+          {
+            "revid": 2206765,
+            "parentid": 2203187,
+            "timestamp": "2026-11-09T23:09:25Z"
           }
         ]
       },
@@ -188,9 +224,9 @@
         "title": "Varka",
         "revisions": [
           {
-            "revid": 2111094,
-            "parentid": 2105734,
-            "timestamp": "2026-06-12T10:18:23Z"
+            "revid": 2201581,
+            "parentid": 2111094,
+            "timestamp": "2026-11-04T15:12:56Z"
           }
         ]
       },
@@ -212,9 +248,9 @@
         "title": "Vesna",
         "revisions": [
           {
-            "revid": 2196408,
-            "parentid": 2196405,
-            "timestamp": "2026-10-18T22:56:18Z"
+            "revid": 2210650,
+            "parentid": 2206519,
+            "timestamp": "2026-11-16T12:13:19Z"
           }
         ]
       },
@@ -368,9 +404,9 @@
         "title": "Yelan",
         "revisions": [
           {
-            "revid": 1966006,
-            "parentid": 1872317,
-            "timestamp": "2026-01-11T22:01:55Z"
+            "revid": 2202051,
+            "parentid": 1966006,
+            "timestamp": "2026-11-05T07:16:40Z"
           }
         ]
       },
