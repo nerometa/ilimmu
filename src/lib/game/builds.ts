@@ -36,7 +36,6 @@ export type Build = z.infer<typeof buildInput>;
 export const emptyBuild: Build = { weaponId:null, weaponLevel:1, weaponAscension:0, refinement:1, artifacts:{mode:'4pc',setId:null}, sands:null, goblet:null, circlet:null };
 export const buildEdit = buildInput.extend({ revision:z.number().int().nonnegative().nullable() });
 export const buildRecord = buildInput.extend({ gameId:z.number().int(), profileId:z.uuid(), revision:z.number().int().nonnegative(), updatedAt:z.iso.datetime() });
-export function maxLevel(ascension: number) { return [20,40,50,60,70,80,90][ascension] ?? 90; }
 
 export function buildValues(value: Build = emptyBuild): Build {
   const {weaponId,weaponLevel,weaponAscension,refinement,artifacts,sands,goblet,circlet}=value;

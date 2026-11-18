@@ -4,10 +4,12 @@
   import EquipmentTile from './EquipmentTile.svelte';
   import FilterOptions from './FilterOptions.svelte';
   import { matchesGameFilters } from '#lib/game/filters.ts';
-  let { kind, weaponType, weaponId, artifacts, onweapon, onartifacts }: {
-    kind:'weapon'|'artifacts'; weaponType:string; weaponId:number|null; artifacts:Build['artifacts'];
-    onweapon:(id:number|null)=>void; onartifacts:(value:Build['artifacts'])=>void;
-  }=$props();
+  type PickerProps =
+    | { kind: 'weapon'; weaponType: string; weaponId: Build['weaponId']; onweapon: (id: Build['weaponId']) => void }
+    | { kind: 'artifacts'; artifacts: Build['artifacts']; onartifacts: (value: Build['artifacts']) => void };
+
+  let props: PickerProps = $props();
+  const kind = $derived(props.kind);
   let dialog:HTMLDialogElement;
   let search=$state('');
   let rarities=$state<number[]>([]);
@@ -15,12 +17,21 @@
   let effect1=$state<string|null>(null);
   let effect2=$state<string|null>(null);
   let effectSlot=$state<1|2>(1);
-  const weapon=$derived(catalog.weapons.find(w=>w.id===weaponId));
-  const set=$derived(artifacts.mode==='4pc'?catalog.artifacts.find(a=>a.id===artifacts.setId):undefined);
-  const item = $derived(kind === 'weapon' ? weapon : set);
-  const pair = $derived(kind === 'artifacts' && artifacts.mode === '2pc+2pc' ? artifacts : undefined);
+  const item = $derived.by(() => {
+    if (props.kind === 'weapon') {
+      const { weaponId } = props;
+      return catalog.weapons.find(weapon => weapon.id === weaponId);
+    }
+    const { artifacts } = props;
+    if (artifacts.mode === '4pc') return catalog.artifacts.find(set => set.id === artifacts.setId);
+  });
+  const pair = $derived(props.kind === 'artifacts' && props.artifacts.mode === '2pc+2pc' ? props.artifacts : undefined);
   const label = $derived(`Choose ${kind === 'weapon' ? 'weapon' : 'artifacts'}: ${pair?.mode ?? item?.name ?? 'None selected'}`);
-  const weapons=$derived(catalog.weapons.filter(w=>w.weaponType===weaponType && matchesGameFilters(w,{search,rarities})));
+  const weapons = $derived.by(() => {
+    if (props.kind !== 'weapon') return [];
+    const { weaponType } = props;
+    return catalog.weapons.filter(weapon => weapon.weaponType === weaponType && matchesGameFilters(weapon, { search, rarities }));
+  });
   const sets=$derived(catalog.artifacts.filter(a=>a.effect4 && `${a.name} ${a.effect2} ${a.effect4}`.toLowerCase().includes(search.toLowerCase())));
   const filteredEffects=$derived(effects.filter(e=>`${e} ${setsForEffect(e).map(a=>a.name).join(' ')}`.toLowerCase().includes(search.toLowerCase())));
   const validPair=$derived(effect1 && effect2 && (effect1!==effect2 || setsForEffect(effect1).length>=2));
@@ -30,7 +41,16 @@
     const second = pair.effect2 ? setsForEffect(pair.effect2).find(set => set.id !== first?.id) : undefined;
     return [first, second];
   });
-  function open(){search='';rarities=[];mode=artifacts.mode;if(artifacts.mode==='2pc+2pc'){effect1=artifacts.effect1;effect2=artifacts.effect2;}else{effect1=null;effect2=null;}effectSlot=1;dialog.showModal();dialog.querySelector('input')?.focus();}
+  function open() {
+    search = '';
+    rarities = [];
+    mode = pair?.mode ?? '4pc';
+    effect1 = pair?.effect1 ?? null;
+    effect2 = pair?.effect2 ?? null;
+    effectSlot = 1;
+    dialog.showModal();
+    dialog.querySelector('input')?.focus();
+  }
   function chooseEffect(value:string){if(effectSlot===1){effect1=value;effectSlot=2;}else effect2=value;}
 </script>
 {#snippet pairArtwork()}
@@ -56,7 +76,7 @@
     </div>
   {/if}
   <label class="picker-search"><span class="sr-only">Search {kind==='weapon'?'weapons':'artifacts and effects'}</span><input class="input" type="search" placeholder={kind==='weapon'?'Search weapons or secondary stats…':'Search sets or effects…'} bind:value={search} /></label>
-  {#if kind==='weapon'}<div class="weapon-filters"><FilterOptions showElements={false} showWeapons={false} rarityChoices={[5,4,3,2,1]} bind:rarities /><p role="status">{weapons.length} {weaponType.toLowerCase()} weapons</p></div>{/if}
+  {#if props.kind === 'weapon'}<div class="weapon-filters"><FilterOptions showElements={false} showWeapons={false} rarityChoices={[5,4,3,2,1]} bind:rarities /><p role="status">{weapons.length} {props.weaponType.toLowerCase()} weapons</p></div>{/if}
   {#if kind==='artifacts' && mode==='2pc+2pc'}
     <div class="effect-selection">
       <button type="button" aria-pressed={effectSlot===1} onclick={()=>effectSlot=1}>{effect1??'Choose first effect'}</button><span>+</span>
@@ -64,11 +84,13 @@
     </div>
   {/if}
   <div class="picker-results">
-    {#if kind==='weapon'}
+    {#if props.kind === 'weapon'}
+      {@const { onweapon } = props}
       <button class="clear-choice" type="button" onclick={()=>{onweapon(null);dialog.close();}}>No weapon selected</button>
       <div class="equipment-grid">{#each weapons as w (w.id)}<EquipmentTile kind="weapons" item={w} showInfo label={w.name} onclick={()=>{onweapon(w.id);dialog.close();}} />{/each}</div>
       {#if !weapons.length}<p class="muted">No weapons match. Try another name or rarity.</p><button class="clear-choice" type="button" onclick={()=>{search='';rarities=[];}}>Clear weapon filters</button>{/if}
     {:else if mode==='4pc'}
+      {@const { onartifacts } = props}
       <button class="clear-choice" type="button" onclick={()=>{onartifacts({mode:'4pc',setId:null});dialog.close();}}>No artifact set selected</button>
       <div class="equipment-grid">{#each sets as a (a.id)}<EquipmentTile kind="artifacts" item={a} showInfo label={a.name} onclick={()=>{onartifacts({mode:'4pc',setId:a.id});dialog.close();}} />{/each}</div>
       {#if !sets.length}<p class="muted">No sets match. Try another name or effect.</p>{/if}
@@ -82,7 +104,7 @@
       {#if !filteredEffects.length}<p class="muted">No effects match your search.</p>{/if}
     {/if}
   </div>
-  {#if kind==='artifacts' && mode==='2pc+2pc'}<footer class="picker-footer"><small>{effect1===effect2&&effect1&&!validPair?'This effect is available from only one set. Choose another effect.':'Two different sets activate both bonuses.'}</small><button class="btn btn-primary" type="button" disabled={!validPair} onclick={()=>{onartifacts({mode:'2pc+2pc',effect1,effect2});dialog.close();}}>Use these effects</button></footer>{/if}
+  {#if props.kind === 'artifacts' && mode==='2pc+2pc'}{@const { onartifacts } = props}<footer class="picker-footer"><small>{effect1===effect2&&effect1&&!validPair?'This effect is available from only one set. Choose another effect.':'Two different sets activate both bonuses.'}</small><button class="btn btn-primary" type="button" disabled={!validPair} onclick={()=>{onartifacts({mode:'2pc+2pc',effect1,effect2});dialog.close();}}>Use these effects</button></footer>{/if}
 </dialog>
 <style>
   .equipment-dialog{margin:auto;width:min(760px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--border);border-radius:16px;background:var(--surface);color:var(--ink);overflow:hidden;}

@@ -30,11 +30,10 @@
 <form class="build-form" onsubmit={(event)=>{event.preventDefault();save();}} aria-label="Character build" aria-busy={pending}>
   <fieldset disabled={pending}>
     <div class="build-fields">
-      <div class="equipment-field"><span>Weapon</span><EquipmentPicker kind="weapon" {weaponType} weaponId={draft.weaponId} artifacts={draft.artifacts} onweapon={value=>{draft.weaponId=value;status='';}} onartifacts={value=>draft.artifacts=value} /></div>
-      <div class="equipment-field"><span>Artifacts {#if draft.artifacts.mode === '4pc'}<small>4pc</small>{/if}</span><EquipmentPicker kind="artifacts" {weaponType} weaponId={draft.weaponId} artifacts={draft.artifacts} onweapon={value=>draft.weaponId=value} onartifacts={value=>{draft.artifacts=value;status='';}} /></div>
+      <div class="equipment-field"><span>Weapon</span><EquipmentPicker kind="weapon" {weaponType} weaponId={draft.weaponId} onweapon={value=>{draft.weaponId=value;status='';}} /></div>
+      <div class="equipment-field"><span>Artifacts {#if draft.artifacts.mode === '4pc'}<small>4pc</small>{/if}</span><EquipmentPicker kind="artifacts" artifacts={draft.artifacts} onartifacts={value=>{draft.artifacts=value;status='';}} /></div>
       {#each (['sands','goblet','circlet'] as const) as slot (slot)}
-        {@const key = slot as keyof typeof mainStats}
-        <label class="stat-field"><span><GameImage kind="slot" id={slot} size={20} />{slot.charAt(0).toUpperCase()+slot.slice(1)}</span><select aria-label={`${slot.charAt(0).toUpperCase()+slot.slice(1)} main stat`} bind:value={draft[key]} onchange={()=>status=''}><option value={null}>Choose main stat</option>{#each mainStats[key] as stat (stat)}<option value={stat}>{stat}</option>{/each}</select></label>
+        <label class="stat-field"><span><GameImage kind="slot" id={slot} size={20} />{slot.charAt(0).toUpperCase()+slot.slice(1)}</span><select aria-label={`${slot.charAt(0).toUpperCase()+slot.slice(1)} main stat`} bind:value={draft[slot]} onchange={()=>status=''}><option value={null}>Choose main stat</option>{#each mainStats[slot] as stat (stat)}<option value={stat}>{stat}</option>{/each}</select></label>
       {/each}
     </div>
     {#if draft.artifacts.mode==='2pc+2pc'}<p class="set-effects">2pc · {draft.artifacts.effect1??'Choose effect'} <span>+</span> 2pc · {draft.artifacts.effect2??'Choose effect'}</p>{/if}
