@@ -28,7 +28,7 @@
   function clear(){search='';ownership='all';selectedElements=[];selectedWeapons=[];selectedRarities=[];sort='name';}
 </script>
 <svelte:head><title>Characters | Ilimmu</title></svelte:head>
-<header class="characters-heading"><div><h1>Characters</h1><p>Your roster. Your builds.</p></div><span>{ownedCount} owned <span class="muted">/ {catalog.characters.length} characters</span></span></header>
+<header class="characters-heading"><div><h1>Characters</h1></div><span>{ownedCount} owned <span class="muted">/ {catalog.characters.length} characters</span></span></header>
 <section class="character-filters" aria-label="Filter characters">
  <div class="filter-toolbar">
   <label class="roster-search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg><span class="sr-only">Search characters</span><input type="search" placeholder="Search characters…" bind:value={search} /></label>

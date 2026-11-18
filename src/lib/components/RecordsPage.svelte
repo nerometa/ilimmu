@@ -25,7 +25,7 @@
 <svelte:head><title>{title} | Ilimmu</title></svelte:head>
 <header class="page-heading">
   <p class="eyebrow">Account / Actual records</p><h1>{title}</h1>
-  <p class="muted">{kind === 'weapons' ? 'Each copy is a distinct instance, even when the game ID and name match.' : 'Materials and Mora, recorded as absolute totals. Saving a quantity replaces the total; it never adds a delta.'}</p>
+  <p class="muted">{kind === 'inventory' ? 'Saving a quantity replaces the total' : ''}</p>
   <button class="btn btn-primary" type="button" onclick={() => adding = !adding}>{adding ? 'Close add form' : `Add ${itemName}`}</button>
 </header>
 <div class="roster-toolbar">

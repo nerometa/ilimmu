@@ -23,7 +23,7 @@
 <section class="profile-content">
   {#if tab==='progression'}
     {#if record}{#key record.id}<CharacterProgression {record} />{/key}<div class="profile-provenance"><Provenance {...record} /></div>{:else}<h2>Track {c.name}’s progression</h2><p class="muted">Mark this character owned to record their level and talents. You can plan equipment before owning them.</p><button class="btn btn-primary" type="button" onclick={own} disabled={pending}>Mark owned</button>{/if}
-  {:else if tab==='build'}<h2>Weapon & artifacts</h2><p class="muted">One saved build, available on your roster.</p>{#key c.id}<CharacterBuild gameId={build?.gameId??c.id} weaponType={c.weaponType} saved={build} progression />{/key}
+  {:else if tab==='build'}<h2>Weapon & artifacts</h2>{#key c.id}<CharacterBuild gameId={build?.gameId??c.id} weaponType={c.weaponType} saved={build} progression />{/key}
   {:else}<h2>Progression targets</h2><p class="muted">Targets are plans. Editing them does not change your actual progression.</p>{#if record}{#each targets as goal (goal.id)}<details class="target-details"><summary>{goal.name} · Level {goal.targetLevel}</summary><GoalForm state={data.state} {goal} /></details>{/each}<button class="btn" type="button" onclick={()=>newTarget=!newTarget}>{newTarget?'Close target editor':'New progression target'}</button>{#if newTarget}<GoalForm state={{...data.state,characters:[record],weapons:[]}} />{/if}{:else}<p>Mark this character owned to attach progression targets.</p>{/if}
   {/if}
 </section>

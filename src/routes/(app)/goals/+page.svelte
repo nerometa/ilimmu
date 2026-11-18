@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head><title>Goals | Ilimmu</title></svelte:head>
-<header class="page-heading"><p class="eyebrow">Planning / Build targets</p><h1>Give your next build a direction</h1><p class="muted">Multiple saved targets, independent priorities, and an explicit finish. Your actual records stay untouched.</p><button class="btn btn-primary" onclick={() => adding = !adding}>{adding ? 'Close add form' : 'Add target'}</button></header>
+<header class="page-heading"><p class="eyebrow">Planning / Build targets</p><h1>Give your next build a direction</h1><button class="btn btn-primary" onclick={() => adding = !adding}>{adding ? 'Close add form' : 'Add target'}</button></header>
 <div class="journal-stack">
   {#if adding}<section class="panel"><h2>New target</h2>{#if data.state.characters.length + data.state.weapons.length === 0}<p>Add a <a href="/characters">character</a> or <a href="/weapons">weapon instance</a> first.</p>{:else}<GoalForm state={data.state} />{/if}</section>{/if}
   {#if data.state.goals.length === 0}<section class="empty"><h2>No targets yet</h2><p>Choose an owned character or weapon instance and save a named build target.</p></section>{/if}

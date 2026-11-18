@@ -33,7 +33,7 @@
 </script>
 
 <svelte:head><title>Profile | Ilimmu</title></svelte:head>
-<header class="page-heading"><p class="eyebrow">Account / Profile</p><h1>Your traveler profile</h1><p class="muted">One account, an explicit server, and a clear record of your progress.</p></header>
+<header class="page-heading"><p class="eyebrow">Account / Profile</p><h1>Your traveler profile</h1></header>
 <section class="panel">
   <h2>Game account</h2>
   <div class="provenance"><span class="badge">Manual entry</span><span>Source: manual</span><time datetime={data.state.profile.updatedAt}>{timestamp(data.state.profile.updatedAt)}</time><span>Revision {data.state.profile.revision}</span></div>
