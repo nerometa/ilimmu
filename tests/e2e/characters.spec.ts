@@ -50,6 +50,15 @@ test('static roster, one persisted build, artifact modes and profile progression
   await dialog.locator('.effect-choice').filter({hasText:'HP +20%'}).click();
   await dialog.locator('.effect-choice').filter({hasText:'HP +20%'}).click();
   await dialog.getByRole('button',{name:'Use these effects',exact:true}).click();
+  const pair = row.getByRole('button',{name:'Choose artifacts: 2pc+2pc',exact:true});
+  await expect(pair).toContainText('2pc+2pc');
+  const icons = pair.locator('img');
+  await expect(icons).toHaveCount(2);
+  expect(await icons.nth(0).getAttribute('src')).not.toBe(await icons.nth(1).getAttribute('src'));
+  const [upper, lower] = await Promise.all([icons.nth(0).boundingBox(), icons.nth(1).boundingBox()]);
+  if (!upper || !lower) throw new Error("Both artifact icons must be visible");
+  expect(upper.x).toBeLessThan(lower.x);
+  expect(upper.y).toBeLessThan(lower.y);
   await row.getByRole('button',{name:'Save build',exact:true}).click();
   await expect(row.getByRole('button',{name:'Save build',exact:true})).toHaveCount(0);
   await row.getByRole('link',{name:'Open Furina profile',exact:true}).click();

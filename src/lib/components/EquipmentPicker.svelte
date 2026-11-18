@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { catalog, effects, canonicalEffect, setsForEffect, type Build } from '#lib/game/builds.ts';
+  import { catalog, effects, setsForEffect, type Build } from '#lib/game/builds.ts';
   import GameImage from './GameImage.svelte';
   import EquipmentTile from './EquipmentTile.svelte';
   import FilterOptions from './FilterOptions.svelte';
@@ -17,28 +17,36 @@
   let effectSlot=$state<1|2>(1);
   const weapon=$derived(catalog.weapons.find(w=>w.id===weaponId));
   const set=$derived(artifacts.mode==='4pc'?catalog.artifacts.find(a=>a.id===artifacts.setId):undefined);
-  const label=$derived(kind==='weapon'?weapon?.name??'Choose weapon':artifacts.mode==='4pc'?set?.name??'Choose artifacts':'2pc + 2pc');
+  const item = $derived(kind === 'weapon' ? weapon : set);
+  const pair = $derived(kind === 'artifacts' && artifacts.mode === '2pc+2pc' ? artifacts : undefined);
+  const label = $derived(`Choose ${kind === 'weapon' ? 'weapon' : 'artifacts'}: ${pair?.mode ?? item?.name ?? 'None selected'}`);
   const weapons=$derived(catalog.weapons.filter(w=>w.weaponType===weaponType && matchesGameFilters(w,{search,rarities})));
   const sets=$derived(catalog.artifacts.filter(a=>a.effect4 && `${a.name} ${a.effect2} ${a.effect4}`.toLowerCase().includes(search.toLowerCase())));
   const filteredEffects=$derived(effects.filter(e=>`${e} ${setsForEffect(e).map(a=>a.name).join(' ')}`.toLowerCase().includes(search.toLowerCase())));
   const validPair=$derived(effect1 && effect2 && (effect1!==effect2 || setsForEffect(effect1).length>=2));
-  const pairSets=$derived.by(()=>{
-    if(artifacts.mode!=='2pc+2pc')return [];
-    const first=catalog.artifacts.find(a=>canonicalEffect(a.effect2)===artifacts.effect1);
-    const second=catalog.artifacts.find(a=>canonicalEffect(a.effect2)===artifacts.effect2&&a.id!==first?.id);
-    return [first,second].filter((a):a is NonNullable<typeof a>=>!!a);
+  const pairSets = $derived.by(() => {
+    if (!pair) return [];
+    const first = pair.effect1 ? setsForEffect(pair.effect1)[0] : undefined;
+    const second = pair.effect2 ? setsForEffect(pair.effect2).find(set => set.id !== first?.id) : undefined;
+    return [first, second];
   });
-  const pairItem=$derived(artifacts.mode==='2pc+2pc'&&pairSets[0]?{...pairSets[0],name:'2 pieces + 2 pieces',effect2:`${artifacts.effect1??''} + ${artifacts.effect2??''}`,effect4:''}:undefined);
   function open(){search='';rarities=[];mode=artifacts.mode;if(artifacts.mode==='2pc+2pc'){effect1=artifacts.effect1;effect2=artifacts.effect2;}else{effect1=null;effect2=null;}effectSlot=1;dialog.showModal();dialog.querySelector('input')?.focus();}
   function chooseEffect(value:string){if(effectSlot===1){effect1=value;effectSlot=2;}else effect2=value;}
 </script>
-<EquipmentTile kind={kind==='weapon'?'weapons':'artifacts'} item={kind==='weapon'?weapon:set??pairItem} label={`Choose ${kind==='weapon'?'weapon':'artifacts'}: ${label}`} onclick={open}>
-  {#if artifacts.mode==='2pc+2pc'&&kind==='artifacts'&&pairSets.length}
-    <span class="selected-pair">{#each pairSets as a (a.id)}<GameImage kind="artifacts" id={a.id} rarity={a.rarity} size={48} />{/each}</span>
-  {:else if kind==='weapon'&&weapon}<GameImage kind="weapons" id={weapon.id} rarity={weapon.rarity} size={64} />
-  {:else if set}<GameImage kind="artifacts" id={set.id} rarity={set.rarity} size={64} />
-  {:else}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span class="empty-label">{kind==='weapon'?'Weapon':'Artifacts'}</span>{/if}
-</EquipmentTile>
+{#snippet pairArtwork()}
+  <span class="selected-pair" aria-hidden="true">
+    {#each pairSets as set, slot (slot)}
+      {#if set}
+        <span class="pair-icon" class:second={slot === 1}>
+          <GameImage kind="artifacts" id={set.id} size={43} />
+        </span>
+      {/if}
+    {/each}
+  </span>
+  <span class="pair-label">{pair?.mode}</span>
+{/snippet}
+<EquipmentTile kind={kind === 'weapon' ? 'weapons' : 'artifacts'} {item} {label} onclick={open}
+  children={pair ? pairArtwork : undefined} />
 <dialog bind:this={dialog} class="equipment-dialog" aria-label={kind==='weapon'?'Choose weapon':'Choose artifacts'}>
   <div class="picker-header"><h2>{kind==='weapon'?'Choose weapon':'Choose artifacts'}</h2><button type="button" class="btn" onclick={()=>dialog.close()} aria-label="Close picker">Close</button></div>
   {#if kind==='artifacts'}
@@ -90,7 +98,19 @@
   .clear-choice{background:transparent;color:var(--primary);min-height:44px;border:0;text-align:left;cursor:pointer;margin-bottom:8px;}
   .effect-selection{display:flex;align-items:center;gap:8px;margin:0 20px 16px;}.effect-selection button{padding:8px;background:var(--canvas);border:1px solid var(--border);font-size:13px;}.effect-selection button[aria-pressed=true]{border-color:var(--primary);color:var(--primary);}
   .effect-choice{width:100%;padding:12px;display:flex;gap:12px;align-items:center;justify-content:space-between;border:1px solid var(--border);border-radius:8px;background:var(--canvas);color:var(--ink);text-align:left;margin-bottom:8px;cursor:pointer;}
-  .effect-sets{display:flex;flex-wrap:nowrap;justify-content:flex-end;flex:none;padding-left:14px;}.stacked-artifact{display:inline-flex;margin-left:-14px;border-radius:50%;overflow:hidden;border:2px solid var(--canvas);}.effect-choice{min-height:64px;}.effect-choice>strong{font-size:14px;line-height:1.4;}.selected-pair{display:flex;align-items:center;justify-content:center;width:82px;}.selected-pair>:global(span+span){margin-left:-20px;}.empty-label{font-size:10px;color:var(--muted);}.picker-help{font-size:13px;color:var(--muted);}
+  .effect-sets{display:flex;flex-wrap:nowrap;justify-content:flex-end;flex:none;padding-left:14px;}.stacked-artifact{display:inline-flex;margin-left:-14px;border-radius:50%;overflow:hidden;border:2px solid var(--canvas);}.effect-choice{min-height:64px;}.effect-choice>strong{font-size:14px;line-height:1.4;}.picker-help{font-size:13px;color:var(--muted);}
+  .selected-pair {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: inherit;
+    background: linear-gradient(135deg, transparent 49.5%, #0003 49.5% 50.5%, transparent 50.5%), #b07636;
+  }
+  .pair-icon { position: absolute; top: 0; left: 0; }
+  .pair-icon.second { inset: auto 0 0 auto; }
+  .pair-icon :global(.game-image) { background: transparent; }
+  .pair-label { color: var(--ink); font-size: 11px; font-weight: 600; }
   .picker-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 20px;border-top:1px solid var(--border);}
   @media(max-width:600px){.equipment-grid{grid-template-columns:repeat(auto-fill,64px);gap:12px;}.picker-header,.picker-results{padding-left:12px;padding-right:12px;}.effect-choice{align-items:center;flex-direction:row;padding:10px;gap:8px;}.effect-sets{justify-content:flex-end;}.effect-choice>strong{font-size:12px;}.stacked-artifact{margin-left:-22px;}.picker-footer{flex-wrap:wrap;}.effect-selection{margin-left:12px;margin-right:12px;}}
 </style>
